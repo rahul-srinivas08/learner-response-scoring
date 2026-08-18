@@ -8,7 +8,7 @@ Full detail, code, and outputs live in the three notebooks (`Part_01_EDA.ipynb`,
 - **`cefr_level` never has a `C2` row, but `C2` is a real level the app must support.** Encoded CEFR ordinally over the full A1–C2 schema regardless — verified with a synthetic-C2 probe, not just claimed.
 - **85.5% of transcripts repeat** (291 unique transcripts cover all 2,000 rows) — a real leakage risk for a random split. Used `StratifiedGroupKFold(asr_transcript)` everywhere, and quantified the leak directly in Part 2 rather than assuming it: turned out small for classical aggregate features (~0.01 QWK), but flagged as structurally more dangerous for Part 3's transformer, which reads raw tokens.
 - **ASR sometimes fails outright** (4.6% of rows) — kept as an explicit feature, never dropped, never used as a hard confidence gate (1 in 4 "failed" rows still scored ≥3; the human rater heard the audio, not the broken text).
-- **Prompts are English, transcripts are 5 languages** — used a frozen multilingual sentence embedding (`paraphrase-multilingual-MiniLM-L12-v2`) for the relevance feature, since lexical overlap is blind on ~80% of rows.
+- **Prompts are English, transcripts are 5 languages** — used a frozen multilingual sentence embedding (`paraphrase-multilingual-MiniLM-L12-v2`) for the relevance feature, since lexical overlap is blind on ~80% of rows. Validated both ways, not just asserted: synthetic off-topic pairs score 0.198 vs. 0.480 for real pairs (the mechanism works), while a TF-IDF alternative correlates only 0.012 with `human_score` vs. the embedding's 0.123 and is blind (zero overlap) on 83% of non-English rows (TF-IDF is not a viable substitute here).
 
 ## How we evaluated, and why those metrics
 
