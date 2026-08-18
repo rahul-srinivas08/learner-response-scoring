@@ -63,6 +63,15 @@ Add an explicit abstention layer to Part 2's XGBoost using its own working uncer
 
 Second choice: **label-preserving data augmentation for the transformer, backed by a real experiment, not a guess.** Trained the same model on 33%, 66%, and 100% of the available training rows: QWK rose from 0.187 → 0.433 → 0.451 — still climbing at full data, not flattening into a memorization plateau. That's evidence the transformer is data-limited, not backbone-limited, and that more data would keep helping. Recommended form: back-translation or paraphrasing of existing transcripts, kept under the same `human_score` — more textual variety per label, without inventing new labels. Deliberately *not* recommending synthetic off-topic examples with guessed labels: relevance is only 1 of 3 equally-weighted grading criteria per the brief, so an off-topic-but-fluent response might still score a 2, not a 0 — inventing that label risks teaching the model something false. Scoped as a next step, not implemented here, in line with the brief's own guidance to prioritize honest evaluation over squeezing out performance within the project's time budget. (Also tested and ruled out: ensembling the transformer with XGBoost's output made both QWK and `false_praise` worse.)
 
+**If pursued, the staged plan — Part 3 only, not Part 2:**
+1. **Generate** — back-translate or paraphrase existing transcripts (pivot-language round-trip, or a dedicated paraphrase model), one or more variants per row, keeping the source row's `human_score` unchanged.
+2. **Filter** — reject variants that drift too far from the original meaning, using the same multilingual embedding already in the pipeline (cosine similarity to the source transcript) as a cheap automated check before anything gets used for training.
+3. **Keep group-safe** — augmented variants must be added to the *same* `StratifiedGroupKFold` group as their source transcript, not treated as new independent rows — otherwise this reintroduces the exact transcript-leakage risk Part 1 flagged, arguably worse since a paraphrase is closer to its source than two independent recordings of the same words.
+4. **Target the known gap** — bias augmentation toward classes 0 and 4 (the thinnest, and where Part 2's confusion matrix found a real blind spot), rather than uniform augmentation across all rows.
+5. **Validate before adopting** — retrain on the exact same held-out test rows used throughout this project and compare QWK against the current 0.451 baseline; only keep the change if it actually moves the number, same discipline used for every other experiment here.
+
+**Not recommended for Part 2:** the classical model is already at the oracle floor (MAE 0.764 achieved vs. 0.743 floor) — its ceiling is missing audio information, not training-data volume, so augmentation isn't expected to move XGBoost's number the way it should move the transformer's.
+
 ## AI collaboration log
 
 Built with Claude Code (Sonnet 5) across all three parts and this report — every notebook cell was reviewed and its printed output checked against what the accompanying markdown claims before being called done, not assumed correct from the code alone.
