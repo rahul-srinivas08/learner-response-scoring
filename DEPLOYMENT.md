@@ -1,6 +1,6 @@
 # Deployment strategy — Part 2 and Part 3
 
-Discussion-level, per the brief ("how you'd think about deploying this... not an implementation requirement"). All numbers below are measured in the notebooks, not estimated — see `Part_2_Classical_ML.ipynb` §5 and `Part_3_Transformer.ipynb` §8/§9 for the underlying benchmarks.
+Discussion-level, per the brief ("how you'd think about deploying this... not an implementation requirement"). All numbers below are measured in the notebooks, not estimated — see `Part_2_Classical_ML.ipynb`'s section 5 and `Part_3_Transformer.ipynb`'s sections 8/9 for the underlying benchmarks.
 
 ## Recommended path: ship Part 2 (XGBoost) as primary, Part 3 (transformer) as a documented alternative
 
@@ -17,7 +17,7 @@ Per `REPORT.md`: XGBoost wins on QWK (the headline metric), the transformer wins
 - The frozen `paraphrase-multilingual-MiniLM-L12-v2` weights (for `relevance_cosine_sim`) — this is the largest artifact in Part 2's pipeline despite XGBoost itself being tiny
 
 **Part 3 (transformer):**
-- LoRA adapters **merged into the base weights** (`merge_and_unload()`, already demonstrated in §8) — the deployed artifact is a plain fine-tuned transformer, no runtime PEFT dependency, no separate adapter file to manage
+- LoRA adapters **merged into the base weights** (`merge_and_unload()`, already demonstrated in section 8) — the deployed artifact is a plain fine-tuned transformer, no runtime PEFT dependency, no separate adapter file to manage
 - The tokenizer (ships with the model)
 - The small MLP head's weights
 - The `StandardScaler` fitted on the 4 auxiliary features (`cefr_ordinal`, `conf_mean`, `conf_min`, `is_asr_failure`) — must ship alongside the model; the aux vector is meaningless without the same scaling
@@ -45,7 +45,7 @@ Both clear the budget with wide margin — **latency is not the deciding factor 
 
 ## 4. Cloud / edge / mobile — three different real constraints, not one generic answer
 
-This is the fuller version of Part 3 §9's discussion, now covering Part 2 as well.
+This is the fuller version of Part 3's section 9 discussion, now covering Part 2 as well.
 
 ### Cloud (the brief's actual target — "millions of learners")
 Both models' bottleneck at this scale is **memory footprint per server process**, not request latency:
@@ -58,17 +58,17 @@ Neither model needs batching for correctness (both are stateless single-request 
 The case for edge over a well-placed cloud region is about **network round-trip time**, not compute — both models are so far under the latency budget that moving compute physically closer only helps if network latency (not measured in this dataset — no geographic/connection data available) turns out to be the dominant cost for the actual learner population. Both models are small enough (hundreds of MB) to replicate cheaply across regions if this turns out to matter; this is a "measure with real traffic first" question, not a build decision to make now.
 
 ### Mobile / on-device
-- **Part 2** is the more mobile-appropriate model of the two as-is: no transformer forward pass needed for classical features other than the embedding call for relevance (which could be dropped or cached client-side if truly latency/resource-constrained on-device — recall Part 2 §4 found `relevance_cosine_sim` carries little unique signal once length/confidence are controlled for, so dropping it for an on-device variant costs little).
-- **Part 3** would need real work before shipping to mobile: the embedding table (82% of model size, per §1) dominates on-device footprint. Options, not implemented here: vocabulary pruning (keep only tokens the 5 target languages actually use), a smaller distilled backbone, or ONNX → Core ML / LiteRT conversion (named in §9, not built).
+- **Part 2** is the more mobile-appropriate model of the two as-is: no transformer forward pass needed for classical features other than the embedding call for relevance (which could be dropped or cached client-side if truly latency/resource-constrained on-device — recall Part 2's section 4 found `relevance_cosine_sim` carries little unique signal once length/confidence are controlled for, so dropping it for an on-device variant costs little).
+- **Part 3** would need real work before shipping to mobile: the embedding table (82% of model size, per section 1) dominates on-device footprint. Options, not implemented here: vocabulary pruning (keep only tokens the 5 target languages actually use), a smaller distilled backbone, or ONNX → Core ML / LiteRT conversion (named in section 9, not built).
 - **Given both models' current honest limitations** (Part 3's weaker QWK, its rejected uncertainty signal), **an on-device deployment should ship Part 2**, not Part 3, until/unless the transformer's data-volume-limited gap closes.
 - **Update cadence** matters more for mobile than either model's raw size: an on-device model is bound to app-store release cycles, not instant redeploy — favors keeping scoring server-side with on-device caching of recent results unless full offline support (e.g., practicing without connectivity) is a hard product requirement.
 
 ## 5. Trust in production — not just a notebook metric
 
 `false_praise` (Part 2: 0.167 / ensemble: similar / Part 3: 0.087) needs a production analog, not just an offline number:
-- **Abstention as a real feature, not just an evaluation exercise:** Part 2 §6's model-disagreement signal (XGBoost vs. Linear Regression, AUC 0.578) is the one uncertainty tool validated to work at all this session — worth wiring into the served path as a genuine triage mechanism: route the top-N% most-disagreed-on predictions to human review instead of auto-scoring them, exactly as tested offline.
+- **Abstention as a real feature, not just an evaluation exercise:** Part 2's section 6 model-disagreement signal (XGBoost vs. Linear Regression, AUC 0.578) is the one uncertainty tool validated to work at all this session — worth wiring into the served path as a genuine triage mechanism: route the top-N% most-disagreed-on predictions to human review instead of auto-scoring them, exactly as tested offline.
 - **Monitor `false_praise`-shaped events in production**, not just accuracy — specifically, track the rate of predicted-advance (score ≥3) on responses a sampled human-review process later flags as genuinely poor. This is the metric that would catch model drift the brief actually cares about, not overall accuracy drift.
-- **Don't deploy Part 3's softmax-entropy as a confidence signal** — tested and found worse than random (AUC 0.46, Part 3 §7). If a transformer-based abstention signal is wanted later, it needs recalibration (e.g., temperature scaling on held-out data) before being trusted for real triage decisions.
+- **Don't deploy Part 3's softmax-entropy as a confidence signal** — tested and found worse than random (AUC 0.46, Part 3's section 7). If a transformer-based abstention signal is wanted later, it needs recalibration (e.g., temperature scaling on held-out data) before being trusted for real triage decisions.
 
 ## 6. Rollout strategy
 
@@ -79,4 +79,4 @@ Given XGBoost is the recommendation and the transformer has one specific documen
 
 ## 7. What's explicitly not implemented — discussion-level per the brief
 
-ONNX export for serving (named, not built — Part 3 §9), static/QAT quantization (dynamic quantization tested and found not to help on this backend, per §8 — static quantization is the more promising untried alternative), embedding-table vocabulary pruning for mobile, and the shadow-mode rollout itself. All are next steps, not gaps in the current evaluation — the brief asks for this to be a discussion, and each item here has a specific, evidence-backed reason it's the right next thing to try rather than a vague "future work" list.
+ONNX export for serving (named, not built — Part 3's section 9), static/QAT quantization (dynamic quantization tested and found not to help on this backend, per section 8 — static quantization is the more promising untried alternative), embedding-table vocabulary pruning for mobile, and the shadow-mode rollout itself. All are next steps, not gaps in the current evaluation — the brief asks for this to be a discussion, and each item here has a specific, evidence-backed reason it's the right next thing to try rather than a vague "future work" list.
