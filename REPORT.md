@@ -46,7 +46,7 @@ Full detail, code, and outputs live in the three notebooks (`Part_01_EDA.ipynb`,
 ## Part 3's required engineering topics
 
 - **Framework:** PyTorch + `transformers` + `peft` (LoRA). ONNX named as the right serving-path choice, not implemented — discussion level per the brief.
-- **Backbone:** kept `paraphrase-multilingual-MiniLM-L12-v2` — multilingual, CPU-fast, 82% of its 117.7M params are the embedding table, not reasoning capacity. QWK gap vs. XGBoost is data-volume (1,458 rows), not backbone size.
+- **Backbone:** kept `paraphrase-multilingual-MiniLM-L12-v2` — multilingual, CPU-fast, 82% of its 117.7M params are the embedding table, not reasoning capacity. Tested a 4x-larger encoder (XLM-R-base, 278M params) directly rather than assuming size would help — it scored worse on every metric (QWK 0.315 vs. 0.451, `false_praise` 0.367 vs. 0.087), confirming the QWK gap vs. XGBoost is data-volume (1,458 rows), not backbone size.
 - **LoRA:** 197,893 trainable params — 0.17% of the model.
 - **Quantization:** tried, reported honestly — dynamic INT8 was *slower* than fp32 here (9.7ms vs. 4.1ms) and shrank the model only 14% (embedding table untouched by `nn.Linear`-only quantization). Static/QAT named as the real next step.
 - **Latency/memory (measured):** ~4ms median, ~470MB, ~1.9s cold load.
