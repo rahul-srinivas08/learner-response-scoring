@@ -12,9 +12,20 @@ Full detail, code, and outputs live in the three notebooks (`Part_01_EDA.ipynb`,
 
 ## How we evaluated, and why those metrics
 
-- **QWK** as the headline metric — ordinal 0–4 target, penalizes a 2-point miss more than a 1-point miss. Majority baseline: 31.2% accuracy but QWK 0.000 — accuracy alone hides that it knows nothing about ordering.
-- **MAE** alongside QWK for interpretability.
-- **`false_praise`** (advancing a learner who scored ≤1) — operationalizes the brief's named worst failure mode directly.
+Same five metrics computed identically for Part 2 and Part 3, via the shared `evaluation.evaluate()` — so the model comparison table below is an apples-to-apples read, not five different scoring conventions:
+
+| Metric | What it means | Good direction |
+|---|---|---|
+| `qwk` | Chance-adjusted agreement with the human score; penalizes a 2-point miss more than a 1-point miss | higher, max 1.0 |
+| `mae` | Average absolute points off | lower |
+| `exact` | % of predictions matching the true score exactly | higher |
+| `within1` | % of predictions off by at most 1 point | higher |
+| `false_praise` | % of truly-bad responses (human score ≤1) the model predicted ≥3 ("advance") — the brief's named worst failure mode, operationalized directly | lower |
+
+- **QWK is the headline metric** — this is an ordinal 0–4 target, not an unordered class label, and QWK is the standard metric built for that. Majority baseline: 31.2% accuracy but QWK 0.000 — accuracy alone hides that it knows nothing about ordering.
+- **MAE alongside QWK** because QWK alone doesn't tell you *how far off* a miss typically is — MAE does, in the same units as the score.
+- **`exact`/`within1`** aren't headline numbers on their own (both are sensitive to a model just clustering near the plurality class), but they're the sanity check against QWK: if QWK looks good but `within1` is low, something's off with the metric, not just the model.
+- **`false_praise`** is the metric this project treats as non-negotiable to report even when it's not the deciding factor — it's the one number that maps directly to the brief's trust constraint ("a confidently wrong 'great job!' is worse than an honest 'I'm not sure'"), independent of whatever QWK says.
 - **Bootstrap CIs** on QWK — necessary at n=2,000 with thin slices like Italian (n=188).
 
 ## What the numbers mean — two ceilings, not one
