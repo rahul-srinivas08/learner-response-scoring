@@ -52,17 +52,20 @@ Full detail, code, and outputs live in the three notebooks (`Part_01_EDA.ipynb`,
 - **Latency/memory (measured):** ~4ms median, ~470MB, ~1.9s cold load.
 - **Deployment:** *Cloud* — model-loading cost per process matters more than per-request latency; horizontal scaling. *Edge* — only helps if network latency (not measured) is the real bottleneck, since compute is already 70x under budget. *Mobile* — embedding table dominates footprint; ship the classical model there today given Part 3's honest limitations. Full treatment in `DEPLOYMENT.md`.
 
-## Part 3's input design — tested, not assumed
+## Part 3's input design — tested, not assumed, including a correction
 
-Grammar and intelligibility are covered by the transcript + ASR confidence; relevance has no input at all in Part 3 — no prompt, no relevance feature. Tested directly whether to fix that:
+Grammar and intelligibility are covered by the transcript + ASR confidence; relevance has no input at all in the shipped Part 3 model — no prompt, no relevance feature. Tested directly whether to fix that, on both backbones used in this project:
 
-| Configuration | QWK | MAE | `false_praise` |
-|---|---|---|---|
-| Transcript only (shipped) | **0.451** | **0.839** | **0.087** |
-| Prompt + transcript | 0.425 | 0.911 | 0.140 |
-| Prompt + language + transcript | 0.370 | 0.913 | 0.153 |
+| Backbone | Configuration | QWK | MAE | `false_praise` |
+|---|---|---|---|---|
+| MiniLM-L12 (shipped) | Transcript only | **0.451** | **0.839** | **0.087** |
+| MiniLM-L12 | + prompt | 0.425 | 0.911 | 0.140 |
+| MiniLM-L12 | + prompt + language | 0.370 | 0.913 | 0.153 |
+| XLM-R-base | Transcript only | 0.315 | 1.198 | 0.367 |
+| XLM-R-base | + prompt | 0.369 | 0.941 | 0.233 |
+| XLM-R-base | + prompt + language | 0.423 | 0.955 | 0.193 |
 
-Every variant that added the prompt scored worse on all three metrics. Root cause: only 10 unique prompts across 1,458 rows gives the model an easy shortcut ("prompt X scores around Y") that beats the harder skill of judging relevance — confirmed by validation QWK rising while test QWK fell, the signature of a shortcut that doesn't generalize. **Relevance stays unrepresented in Part 3 — fixable with more data, not a cleverer prompt encoding.**
+On MiniLM, every variant that added the prompt scored worse — the finding stated earlier in this report. **Correction, found while testing whether a bigger backbone was the real bottleneck (see Backbone above): re-running the same prompt tests on XLM-R-base showed the opposite trend — adding context *improved* its results, monotonically, even though its best configuration still didn't beat MiniLM's transcript-only number.** So "adding the prompt hurts" isn't a fixed property of this dataset, it's specific to MiniLM's smaller capacity given how repetitive the transcripts are (85.5% repeat) — MiniLM doesn't need more context to fit well; XLM-R-base's larger capacity benefits from it but starts from a worse baseline. **The shipped configuration (MiniLM, transcript-only) remains the best of all 8 tested across both backbones — but the fix for the relevance gap is more accurately "more data, possibly paired with a backbone that can use extra context," not the narrower "more data alone" claimed earlier.**
 
 ## What we'd do next with more time
 
