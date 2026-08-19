@@ -58,6 +58,18 @@ Full detail, code, and outputs live in the three notebooks (`Part_01_EDA.ipynb`,
   - *Edge*: the case for edge over a well-placed cloud region is about network round-trip time for distant learners, not compute speed — compute here is already 70x under budget, so edge only helps if network latency (not measured in this dataset) turns out to be the real bottleneck.
   - *Mobile/on-device*: real option for an offline-tolerant use case, but the embedding table dominates on-device footprint — would want vocabulary pruning or a smaller distilled backbone first. Given §6/§7's honest limitations, a mobile deployment should currently ship the classical model too.
 
+## Part 3's input design — what was tested, not assumed
+
+The brief's three grading criteria (grammar, relevance & completeness, intelligibility) are meant to be equally weighted. Part 3's transformer reads the transcript directly (covers grammar and, via ASR confidence, intelligibility) but has no input at all for relevance — no prompt, no relevance feature. Whether to fix that by adding the prompt was tested directly, not assumed either way:
+
+| Configuration | QWK | MAE | `false_praise` |
+|---|---|---|---|
+| Transcript only (shipped) | **0.451** | **0.839** | **0.087** |
+| Prompt + transcript (no language) | 0.425 | 0.911 | 0.140 |
+| Prompt + language + transcript | 0.370 | 0.913 | 0.153 |
+
+Every variant that added the prompt scored worse on all three metrics — the transcript-only design isn't a gap left unaddressed, it's the version that won a direct comparison. Root cause: only 10 unique prompts across 1,458 training rows gives the model an easy shortcut ("prompt X tends to score around Y") that outcompetes the harder, genuinely useful skill of judging whether *this* response answers *this* question — confirmed by validation QWK rising with prompt included while test QWK fell, the signature of a shortcut that doesn't generalize. Adding a language tag on top made it worse again, the same shortcut-learning effect compounding. **Relevance stays unrepresented in Part 3's input — a real, acknowledged limitation, fixable with more training data, not with a cleverer way to encode the prompt.**
+
 ## What we'd do next with more time
 
 Add an explicit abstention layer to Part 2's XGBoost using its own working uncertainty signal (model-disagreement AUC 0.578, already validated) — this closes the trust gap that currently favors the transformer, without giving up XGBoost's QWK advantage.
