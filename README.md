@@ -27,4 +27,5 @@ Each notebook has its own "how to run" line at the top and reuses `feature_engin
 | `evaluation.py` | Metrics, group-safe CV splitting, the two ceilings, shared by Parts 2 and 3 |
 | `Part_01_EDA.ipynb`, `Part_2_Classical_ML.ipynb`, `Part_3_Transformer.ipynb` | The three deliverables |
 | `REPORT.md` | The short written report — read this first |
+| `DEPLOYMENT.md` | Deployment strategy for Part 2 and Part 3 — artifacts, latency, cloud/edge/mobile, rollout |
 | `requirements.txt`, `setup_check.py` | Environment setup and verification |
