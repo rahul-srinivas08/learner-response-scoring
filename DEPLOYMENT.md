@@ -35,6 +35,8 @@ Per `REPORT.md`: XGBoost wins on QWK (the headline metric), the transformer wins
 
 Both clear the budget with wide margin — **latency is not the deciding factor between the two models**, consistent with what both notebooks already concluded independently. The cold-start cost is paid once per server process at startup, not per request, so it doesn't affect steady-state throughput; it does affect how fast a new server instance becomes ready, relevant to autoscaling response time under load.
 
+**Throughput, worked from that latency (1000ms ÷ latency = req/s per core):** Part 2 ≈ 55 req/s/core, Part 3 ≈ 250 req/s/core. For an illustrative 10,000 req/s peak (not measured — no real traffic data in this project), that's ~182 cores for Part 2 vs. ~40 for Part 3 — a ~4.5x compute-cost gap that doesn't change the QWK-based recommendation, but is the concrete number that would matter if cost-per-request became the dominant concern at true scale.
+
 ## 3. Serving architecture
 
 **Minimal viable path for either model:** a stateless HTTP service (FastAPI/Flask-equivalent) wrapping `build_features()` + `model.predict()` (Part 2) or the tokenizer + forward pass (Part 3), returning a score 0–4 plus the recommended app action (`re-prompt` / `correct` / `advance`, via `evaluation.action_of`). Stateless by design — no session state, no per-user memory — which is what makes horizontal scaling trivial at the "millions of learners" scale the brief names.

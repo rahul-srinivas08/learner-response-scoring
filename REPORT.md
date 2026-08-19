@@ -51,6 +51,7 @@ Full detail, code, and outputs live in the three notebooks (`Part_01_EDA.ipynb`,
 - **Quantization:** tried, reported honestly — dynamic INT8 was *slower* than fp32 here (9.7ms vs. 4.1ms) and shrank the model only 14% (embedding table untouched by `nn.Linear`-only quantization). Static/QAT named as the real next step.
 - **Latency/memory (measured):** ~4ms median, ~470MB, ~1.9s cold load.
 - **Deployment:** *Cloud* — model-loading cost per process matters more than per-request latency; horizontal scaling. *Edge* — only helps if network latency (not measured) is the real bottleneck, since compute is already 70x under budget. *Mobile* — embedding table dominates footprint; ship the classical model there today given Part 3's honest limitations. Full treatment in `DEPLOYMENT.md`.
+- **Throughput, quantified:** from measured latency, the transformer clears ~250 req/s per CPU core vs. XGBoost's ~55 (1000ms ÷ latency) — roughly **4.5x fewer cores needed for the same load**, a real compute-cost difference distinct from the QWK-based recommendation above. Brief note: this level of throughput detail exceeds the brief's own ask ("worth a line of discussion... you don't need a rigorous benchmark") — included because the number was cheap to compute from data already measured, not because more was required.
 
 ## Part 3's input design — tested, not assumed, including a correction
 
