@@ -16,6 +16,8 @@ Verifies every required package is installed (`pip install -r requirements.txt` 
 2. **[`Part_2_Classical_ML.ipynb`](Part_2_Classical_ML.ipynb)** — Linear Regression vs. XGBoost, compared honestly on Part 1's group-safe split. Confusion matrix, per-language/CEFR/confidence breakdowns, latency benchmark, a working abstention filter, five tested improvement attempts (two adopted, three rejected with reasons), and the model-choice writeup.
 3. **[`Part_3_Transformer.ipynb`](Part_3_Transformer.ipynb)** — LoRA fine-tuning of a small multilingual transformer with focal loss, compared against Part 2 on the identical held-out rows. Covers backbone justification, quantization (tried, measured, reported honestly), and a cloud/edge/mobile deployment discussion.
 
+Not a required deliverable, but referenced throughout Part 3: **[`Part_3b_Architecture_Comparison.ipynb`](Part_3b_Architecture_Comparison.ipynb)** — a standalone, self-contained head-to-head test of full text-serialization vs. Part 3's hybrid input design, trained and evaluated independently as evidence for that architecture decision.
+
 Each notebook has its own "how to run" line at the top and reuses `feature_engineering.py` / `evaluation.py` — shared modules, not redefined per notebook, so the three parts can't silently drift apart on what a feature or metric means.
 
 ## Files
@@ -26,6 +28,8 @@ Each notebook has its own "how to run" line at the top and reuses `feature_engin
 | `feature_engineering.py` | The 28-feature matrix, shared by all three notebooks |
 | `evaluation.py` | Metrics, group-safe CV splitting, the two ceilings, shared by Parts 2 and 3 |
 | `Part_01_EDA.ipynb`, `Part_2_Classical_ML.ipynb`, `Part_3_Transformer.ipynb` | The three deliverables |
+| `Part_3b_Architecture_Comparison.ipynb` | Supplementary — full text-serialization vs. hybrid input, tested head-to-head |
 | `REPORT.md` | The short written report — read this first |
 | `DEPLOYMENT.md` | Deployment strategy for Part 2 and Part 3 — artifacts, latency, cloud/edge/mobile, rollout |
 | `requirements.txt`, `setup_check.py` | Environment setup and verification |
+| `part2_predictions.csv`, `part3_predictions.csv` | Row-level predictions (id, input, true score, prediction) for external review |

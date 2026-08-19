@@ -1,0 +1,405 @@
+utterance_id,prompt,asr_transcript,target_language,cefr_level,asr_mean_confidence,asr_word_confidences,human_score,transformer_pred
+utt_00002,Talk about a book or film you enjoyed recently.,i recently enjoyed a film about space travel; the story was really moving i mean,en,B2,0.83,"[0.861, 0.846, 0.984, 0.807, 0.791, 0.888, 0.862, 0.857, 0.843, 0.802, 0.674, 0.769, 0.998, 0.655, 0.81]",3,3
+utt_00004,Talk about your favorite hobby and why you like it.,mon passe-temps prefere est le foot parce que j'aime jouer en equipe i mean,fr,B1,0.826,"[0.813, 0.778, 0.88, 0.786, 0.748, 0.968, 0.839, 0.861, 0.747, 0.814, 0.864, 0.768, 0.885, 0.81]",3,2
+utt_00018,Describe what you did last weekend.,el fin de semana pasado fui al parque y luego cene con unos amigos sabes,es,B1,0.944,"[0.948, 0.94, 0.912, 0.969, 0.959, 0.96, 0.919, 0.975, 0.907, 0.955, 0.994, 0.917, 0.927, 0.943, 0.929]",1,2
+utt_00021,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.799,"[0.895, 0.916, 0.742, 0.866, 0.71, 0.843, 0.761, 0.682, 0.807, 0.77]",1,2
+utt_00027,Describe what you did last weekend.,el fin de semana fui al parque con amigos well,es,A2,0.818,"[0.733, 0.843, 0.829, 0.827, 0.832, 0.771, 0.825, 0.829, 0.769, 0.923]",4,2
+utt_00030,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B2,0.823,"[0.794, 0.768, 0.897, 0.823, 0.739, 0.909, 0.961, 0.686, 0.771, 0.88]",1,3
+utt_00033,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,B2,0.834,"[0.977, 0.791, 0.747, 0.736, 0.742, 0.806, 0.842, 0.836, 0.884, 0.814, 0.938, 0.79, 1.0, 0.867, 0.738]",3,4
+utt_00035,Ask for directions to the train station.,"pardon, pourriez-vous me dire comment aller a la gare? franchement",fr,B2,0.668,"[0.618, 0.678, 0.687, 0.633, 0.677, 0.673, 0.622, 0.686, 0.694, 0.716]",2,4
+utt_00046,Order a coffee and a pastry at a cafe.,"podria darme un cafe y un croissant de chocolate, por favor? gracias o sea",es,C1,0.353,"[0.373, 0.358, 0.294, 0.55, 0.411, 0.168, 0.37, 0.293, 0.431, 0.281, 0.343, 0.4, 0.433, 0.243]",2,3
+utt_00052,Talk about a book or film you enjoyed recently.,no,en,A2,0.457,[0.457],0,2
+utt_00055,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.615,"[0.554, 0.785, 0.505]",1,1
+utt_00059,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen weißt du",de,B2,0.913,"[0.971, 0.95, 0.949, 0.986, 0.89, 0.939, 0.865, 0.912, 0.878, 0.895, 0.933, 0.826, 1.0, 0.812, 0.796, 0.975, 0.948]",3,4
+utt_00060,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,B2,0.842,"[0.901, 0.901, 0.847, 0.771, 0.854, 0.79, 0.931, 0.835, 0.777, 0.82, 0.883, 0.8, 0.778, 0.869, 0.869]",2,4
+utt_00069,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.675,"[0.717, 0.619, 0.692, 0.616, 0.752, 0.731, 0.595]",1,2
+utt_00071,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.981,"[0.981, 0.962, 1.0]",3,2
+utt_00073,Talk about a book or film you enjoyed recently.,book is good,en,A1,0.609,"[0.553, 0.716, 0.559]",1,1
+utt_00074,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B1,0.707,"[0.72, 0.77, 0.586, 0.65, 0.702, 0.601, 0.809, 0.736, 0.833, 0.659]",2,2
+utt_00075,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.762,"[0.593, 0.791, 0.901]",2,2
+utt_00078,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.132,"[0.129, 0.116, 0.151]",4,1
+utt_00079,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B2,0.77,"[0.788, 0.689, 0.824, 0.783, 0.648, 0.871, 0.708, 0.789, 0.887, 0.713]",2,3
+utt_00081,Talk about a book or film you enjoyed recently.,book is good,en,A1,0.696,"[0.716, 0.603, 0.768]",1,1
+utt_00083,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.574,"[0.565, 0.606, 0.551]",2,1
+utt_00088,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.91,"[0.782, 0.808, 0.879, 0.88, 0.93, 0.945, 0.955, 0.999, 0.942, 0.98]",2,2
+utt_00093,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.634,"[0.68, 0.592, 0.629]",1,2
+utt_00097,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.816,"[0.899, 0.843, 0.784, 0.862, 0.783, 0.823, 0.701, 0.74, 0.816, 0.907]",2,2
+utt_00098,Explain your plans for the summer holidays.,fuer die sommerferien plane ich nach spanien zu reisen und die kueste zu besuchen also,de,B2,0.886,"[0.874, 0.859, 0.938, 0.884, 0.889, 0.844, 0.84, 0.843, 0.892, 0.844, 0.886, 0.992, 0.92, 0.849, 0.94]",4,4
+utt_00099,Describe what you did last weekend.,el fin de semana fui al parque con amigos well,es,A2,0.675,"[0.669, 0.578, 0.636, 0.588, 0.672, 0.693, 0.785, 0.71, 0.68, 0.738]",0,1
+utt_00100,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.171,"[0.04, 0.202, 0.237, 0.089, 0.262, 0.209, 0.159]",2,1
+utt_00101,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.922,"[0.898, 0.998, 0.87]",2,2
+utt_00116,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.962,"[1.0, 0.993, 0.892]",3,2
+utt_00124,Describe your typical workday.,ich arbeite computer you know,de,A1,0.728,"[0.759, 0.707, 0.743, 0.653, 0.778]",1,1
+utt_00134,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.607,"[0.595, 0.629, 0.596]",0,1
+utt_00143,Describe what you did last weekend.,el fin de semana pasado fui al parque y luego cene con unos amigos bueno,es,B1,0.792,"[0.873, 0.782, 0.842, 0.788, 0.788, 0.864, 0.742, 0.793, 0.747, 0.749, 0.759, 0.804, 0.745, 0.89, 0.71]",2,2
+utt_00149,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio sinceramente,it,B2,0.669,"[0.681, 0.653, 0.696, 0.669, 0.951, 0.549, 0.563, 0.551, 0.559, 0.549, 0.786, 0.817]",1,2
+utt_00150,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.772,"[0.754, 0.735, 0.827]",2,1
+utt_00159,Explain your plans for the summer holidays.,sommer ich gehe strand well,de,A1,0.828,"[0.834, 0.774, 0.807, 0.905, 0.82]",1,1
+utt_00160,Describe what you did last weekend.,el fin de semana pasado fui al parque y luego cene con unos amigos well,es,B1,0.973,"[0.968, 0.91, 0.997, 0.993, 1.0, 0.954, 0.975, 0.976, 1.0, 0.962, 0.978, 0.991, 0.974, 0.948, 0.974]",3,2
+utt_00161,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B1,0.611,"[0.58, 0.603, 0.563, 0.644, 0.608, 0.719, 0.734, 0.524, 0.597, 0.543]",2,2
+utt_00170,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.773,"[0.726, 0.824, 0.76, 0.77, 0.779, 0.769, 0.785]",2,2
+utt_00172,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,B2,0.578,"[0.593, 0.563, 0.583, 0.584, 0.558, 0.616, 0.603, 0.579, 0.584, 0.588, 0.539, 0.578, 0.569, 0.562, 0.578]",0,4
+utt_00176,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.791,"[0.77, 0.815, 0.789]",2,2
+utt_00179,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.904,"[0.888, 0.896, 0.804, 0.85, 1.0, 0.998, 0.889]",3,2
+utt_00182,Talk about your favorite hobby and why you like it.,mon passe-temps prefere est le foot parce que j'aime jouer en equipe en fait,fr,B1,0.605,"[0.593, 0.644, 0.684, 0.55, 0.646, 0.576, 0.568, 0.634, 0.62, 0.481, 0.671, 0.665, 0.54, 0.604]",1,2
+utt_00191,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.765,"[0.745, 0.748, 0.801]",2,2
+utt_00197,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.81,"[0.802, 0.721, 0.926, 0.829, 0.836, 0.906, 0.779, 0.872, 0.903, 0.531]",2,2
+utt_00206,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.889,"[0.924, 0.875, 0.869]",1,2
+utt_00207,Describe what you did last weekend.,el fin de semana pasado fui al parque y luego cene con unos amigos sabes,es,B1,0.268,"[0.282, 0.319, 0.304, 0.227, 0.245, 0.305, 0.246, 0.269, 0.293, 0.246, 0.279, 0.235, 0.257, 0.286, 0.227]",3,1
+utt_00216,Ask for directions to the train station.,"pardon, pourriez-vous me dire comment aller a la gare? bon",fr,B2,0.704,"[0.651, 0.754, 0.678, 0.776, 0.653, 0.714, 0.643, 0.833, 0.621, 0.716]",1,4
+utt_00218,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.877,"[0.737, 0.946, 0.949]",1,2
+utt_00224,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B2,0.936,"[0.944, 0.932, 0.88, 0.889, 0.853, 0.912, 0.954, 0.999, 0.999, 0.999]",3,4
+utt_00235,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.898,"[0.914, 0.88, 0.901]",0,2
+utt_00241,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.82,"[0.779, 0.852, 0.828]",1,2
+utt_00252,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.755,"[0.77, 0.787, 0.709]",1,2
+utt_00261,Ask for directions to the train station.,"pardon, pourriez-vous me dire comment aller a la gare? franchement",fr,C1,0.272,"[0.298, 0.294, 0.322, 0.269, 0.19, 0.28, 0.224, 0.231, 0.29, 0.325]",3,4
+utt_00262,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.894,"[0.865, 0.892, 1.0, 0.886, 1.0, 0.916, 0.698]",1,2
+utt_00264,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.75,"[0.778, 0.699, 0.773]",2,1
+utt_00268,Give your opinion on working from home.,i believe working from home is convenient though it can feel isolating to be honest,en,A2,0.804,"[0.847, 0.75, 0.851, 0.718, 0.93, 0.786, 0.749, 0.754, 0.95, 0.732, 0.833, 0.88, 0.783, 0.651, 0.841]",3,4
+utt_00270,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.81,"[0.755, 0.767, 0.909]",3,2
+utt_00271,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,B2,0.842,"[0.767, 0.966, 0.766, 0.814, 0.901, 0.931, 0.934, 0.88, 0.868, 0.84, 0.852, 0.767, 0.75, 0.802, 0.791]",3,4
+utt_00279,Talk about your favorite hobby and why you like it.,mon passe-temps prefere est le foot; je l'adore car ca me maintient en forme et j'aime le travail d'equipe bon,fr,B2,0.708,"[0.74, 0.788, 0.837, 0.698, 0.687, 0.616, 0.622, 0.684, 0.747, 0.804, 0.624, 0.864, 0.68, 0.706, 0.63, 0.454, 0.801, 0.785, 0.679, 0.715]",2,4
+utt_00280,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.692,"[0.809, 0.812, 0.622, 0.745, 0.748, 0.625, 0.689, 0.626, 0.614, 0.632]",2,2
+utt_00282,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio,it,B2,0.347,"[0.401, 0.262, 0.331, 0.419, 0.283, 0.386, 0.276, 0.398, 0.364, 0.258, 0.444]",2,2
+utt_00284,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen und so weiter",de,B2,0.855,"[0.918, 0.882, 0.845, 0.813, 0.876, 0.796, 0.668, 0.9, 0.933, 0.707, 0.8, 0.913, 1.0, 0.872, 0.82, 0.858, 0.965, 0.825]",4,4
+utt_00285,Talk about your favorite hobby and why you like it.,mon passe-temps prefere est le foot parce que j'aime jouer en equipe en fait,fr,B1,0.704,"[0.614, 0.644, 0.599, 0.703, 0.848, 0.722, 0.667, 0.663, 0.54, 0.776, 0.683, 0.674, 0.999, 0.72]",2,2
+utt_00286,Give your opinion on working from home.,i believe working from home is convenient though it can feel isolating and so on,en,B1,0.878,"[0.81, 0.781, 0.844, 0.885, 0.841, 0.999, 0.805, 0.865, 0.953, 0.886, 0.782, 0.868, 0.961, 0.894, 0.999]",3,4
+utt_00295,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.837,"[0.834, 0.941, 0.737, 0.808, 0.899, 0.801, 0.836]",2,2
+utt_00297,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.756,"[0.741, 0.781, 0.745]",0,1
+utt_00300,Talk about a book or film you enjoyed recently.,book is good,en,A1,0.685,"[0.678, 0.695, 0.682]",1,1
+utt_00308,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.804,"[0.83, 0.775, 0.808]",0,1
+utt_00309,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.928,"[0.928, 1.0, 0.855]",4,2
+utt_00314,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.718,"[0.594, 0.593, 0.819, 0.904, 0.701, 0.693, 0.72]",1,2
+utt_00326,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.853,"[0.861, 0.8, 0.898]",2,2
+utt_00331,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B2,0.629,"[0.637, 0.76, 0.602, 0.63, 0.449, 0.581, 0.551, 0.631, 0.815, 0.634]",2,2
+utt_00333,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.649,"[0.568, 0.671, 0.708]",2,1
+utt_00336,Describe what you did last weekend.,el fin de semana fui al parque con amigos well,es,A2,0.921,"[0.912, 0.93, 0.831, 0.992, 0.895, 0.903, 0.947, 0.916, 0.963, 0.92]",3,2
+utt_00341,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.752,"[0.704, 0.738, 0.704, 0.748, 0.744, 0.798, 0.825]",0,2
+utt_00352,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.232,"[0.281, 0.179, 0.235]",3,1
+utt_00359,Talk about a book or film you enjoyed recently.,book is good,en,A1,0.658,"[0.659, 0.695, 0.62]",0,1
+utt_00361,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,C1,0.961,"[1.0, 0.895, 0.987, 0.936, 0.955, 1.0, 0.881, 0.974, 0.986, 1.0, 0.966, 0.977, 0.94, 0.975, 0.942]",4,4
+utt_00362,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.595,"[0.617, 0.564, 0.604]",1,1
+utt_00366,Explain your plans for the summer holidays.,fuer die sommerferien plane ich nach spanien zu reisen und die kueste zu besuchen weißt du,de,B2,0.72,"[0.599, 0.628, 0.634, 0.856, 0.461, 1.0, 0.82, 0.726, 0.695, 0.733, 0.76, 0.774, 0.764, 0.711, 0.679, 0.684]",1,4
+utt_00367,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.526,"[0.523, 0.547, 0.538, 0.474, 0.539, 0.531, 0.527]",0,2
+utt_00368,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.6,"[0.732, 0.585, 0.638, 0.55, 0.559, 0.523, 0.502, 0.664, 0.664, 0.581]",1,2
+utt_00378,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.737,"[0.729, 0.774, 0.707]",1,2
+utt_00382,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.655,"[0.64, 0.625, 0.72, 0.664, 0.663, 0.679, 0.591]",2,2
+utt_00384,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.625,"[0.588, 0.533, 0.599, 0.821, 0.814, 0.618, 0.678, 0.596, 0.511, 0.493]",1,2
+utt_00386,Give your opinion on working from home.,i believe working from home is convenient though it can feel isolating and so on,en,B1,0.68,"[0.719, 0.625, 0.611, 0.741, 0.575, 0.81, 0.758, 0.671, 0.669, 0.805, 0.629, 0.708, 0.586, 0.592, 0.702]",3,4
+utt_00395,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.733,"[0.752, 0.67, 0.778]",2,2
+utt_00396,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.779,"[0.793, 0.793, 0.781, 0.763, 0.791, 0.787, 0.747]",1,2
+utt_00399,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.633,"[0.594, 0.691, 0.647, 0.545, 0.628, 0.643, 0.683]",2,2
+utt_00403,Describe what you did last weekend.,el fin de semana pasado fui al parque y luego cene con unos amigos o sea,es,B1,0.707,"[0.673, 0.748, 0.587, 0.738, 0.853, 0.604, 0.718, 0.656, 0.736, 0.706, 0.657, 0.74, 0.837, 0.69, 0.757, 0.609]",1,2
+utt_00408,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.783,"[0.772, 0.771, 0.807]",1,2
+utt_00414,Order a coffee and a pastry at a cafe.,un cafe croissant,it,A2,0.799,"[0.709, 0.8, 0.889]",4,2
+utt_00416,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,B2,0.721,"[0.717, 0.858, 0.603, 0.727, 0.62, 0.759, 0.805, 0.692, 0.503, 0.745, 0.766, 0.763, 0.835, 0.636, 0.787]",3,3
+utt_00419,Give your opinion on working from home.,i believe working from home is convenient though it can feel isolating to be honest,en,A2,0.641,"[0.597, 0.604, 0.662, 0.737, 0.538, 0.525, 0.632, 0.727, 0.539, 0.711, 0.658, 0.557, 0.674, 0.75, 0.707]",3,4
+utt_00427,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.784,"[0.712, 0.773, 0.868]",4,1
+utt_00442,Explain your plans for the summer holidays.,sommer gehe strand i mean,de,A1,0.516,"[0.562, 0.545, 0.446, 0.559, 0.468]",1,1
+utt_00444,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,B2,0.938,"[0.856, 0.981, 0.98, 0.865, 0.981, 1.0, 0.866, 0.879, 0.993, 0.949, 0.965, 0.953, 0.956, 0.854, 0.994]",4,4
+utt_00451,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen weißt du",de,B2,0.683,"[0.71, 0.704, 0.663, 0.694, 0.675, 0.687, 0.688, 0.679, 0.671, 0.672, 0.669, 0.67, 0.682, 0.672, 0.694, 0.706, 0.674]",0,4
+utt_00457,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.808,"[0.815, 0.718, 0.892]",1,2
+utt_00458,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.61,"[0.737, 0.538, 0.554]",1,1
+utt_00460,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.652,"[0.572, 0.755, 0.7, 0.562, 0.565, 0.679, 0.683, 0.689, 0.667, 0.651]",2,2
+utt_00461,Give your opinion on working from home.,"personally i think remote work boosts productivity, but you have to be disciplined to avoid isolation well",en,C1,0.958,"[0.888, 0.999, 0.834, 0.999, 0.898, 0.999, 0.952, 0.949, 0.999, 0.89, 0.999, 0.997, 0.991, 0.999, 0.97, 0.983, 0.945]",4,4
+utt_00465,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.714,"[0.616, 0.757, 0.791, 0.743, 0.879, 0.543, 0.726, 0.752, 0.694, 0.634]",1,2
+utt_00476,Talk about a book or film you enjoyed recently.,book is good,en,A1,0.732,"[0.662, 0.743, 0.792]",0,1
+utt_00481,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.203,"[0.268, 0.205, 0.178, 0.206, 0.228, 0.207, 0.127]",2,1
+utt_00482,Give your opinion on working from home.,no sé,en,B1,0.556,"[0.556, 0.555]",0,1
+utt_00490,Explain how to get from your house to the office.,prendo autobus ufficio,fr,A2,0.418,"[0.419, 0.452, 0.384]",1,1
+utt_00491,Talk about your favorite hobby and why you like it.,mon passe-temps prefere est le foot; je l'adore car ca me maintient en forme et j'aime le travail d'equipe bon,fr,B2,0.834,"[0.936, 0.867, 0.903, 0.787, 0.891, 0.757, 0.893, 0.844, 0.87, 0.751, 0.77, 0.873, 0.767, 0.864, 0.738, 0.89, 0.747, 0.87, 0.875, 0.784]",2,4
+utt_00492,Describe what you did last weekend.,el fin de semana pasado fui al parque y luego cene con unos amigos o sea,es,B1,0.652,"[0.694, 0.675, 0.628, 0.6, 0.543, 0.681, 0.567, 0.665, 0.644, 0.7, 0.642, 0.64, 0.703, 0.68, 0.679, 0.688]",3,2
+utt_00495,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.783,"[0.665, 0.847, 0.836]",3,2
+utt_00499,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.565,"[0.58, 0.537, 0.577]",0,1
+utt_00511,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,C1,0.957,"[0.937, 0.968, 0.923, 0.905, 0.989, 0.989, 0.92, 1.0, 0.929, 0.971, 0.998, 0.957, 0.981, 0.934, 0.95]",4,4
+utt_00513,Talk about a book or film you enjoyed recently.,no sé,en,A1,0.664,"[0.688, 0.641]",0,1
+utt_00532,Ask for directions to the train station.,"pardon, pourriez-vous me dire comment aller a la gare? bon",fr,B2,0.822,"[0.974, 0.761, 0.799, 0.655, 0.783, 0.925, 0.775, 0.889, 0.803, 0.856]",2,4
+utt_00537,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.923,"[0.925, 0.843, 1.0]",3,2
+utt_00552,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.288,"[0.249, 0.289, 0.325]",1,1
+utt_00557,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.623,"[0.642, 0.626, 0.602]",0,2
+utt_00566,Explain your plans for the summer holidays.,diesen sommer moechte ich mit familie nach spanien fahren also well,de,B1,0.62,"[0.656, 0.739, 0.624, 0.706, 0.652, 0.643, 0.696, 0.611, 0.515, 0.452, 0.528]",1,2
+utt_00570,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B1,0.544,"[0.425, 0.528, 0.515, 0.438, 0.493, 0.565, 0.618, 0.586, 0.713, 0.561]",1,2
+utt_00573,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.788,"[0.824, 0.813, 0.875, 0.804, 0.778, 0.78, 0.754, 0.845, 0.671, 0.735]",3,2
+utt_00574,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.185,"[0.212, 0.214, 0.155, 0.154, 0.184, 0.145, 0.232]",2,1
+utt_00575,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,C1,0.797,"[0.665, 0.715, 0.797, 0.806, 0.854, 0.698, 0.896, 0.811, 0.848, 0.875]",1,3
+utt_00583,Explain your plans for the summer holidays.,fuer die sommerferien plane ich nach spanien zu reisen und die kueste zu besuchen weißt du,de,C1,0.774,"[0.689, 0.617, 0.714, 0.864, 0.818, 0.864, 0.818, 0.653, 0.732, 0.686, 0.9, 0.644, 0.856, 0.856, 0.951, 0.724]",2,4
+utt_00589,Describe what you did last weekend.,el fin de semana pasado fui al parque y luego cene con unos amigos o sea,es,B1,0.728,"[0.647, 0.737, 0.787, 0.649, 0.737, 0.783, 0.726, 0.901, 0.623, 0.79, 0.715, 0.773, 0.753, 0.681, 0.74, 0.612]",1,2
+utt_00595,Give your opinion on working from home.,"personally i think remote work boosts productivity, but you have to be disciplined to avoid isolation well",en,C1,0.929,"[0.885, 0.849, 0.999, 0.897, 0.882, 0.999, 0.999, 0.947, 0.999, 0.999, 0.957, 0.809, 0.96, 0.999, 0.798, 0.999, 0.821]",4,4
+utt_00613,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio,it,B2,0.691,"[0.686, 0.783, 0.76, 0.665, 0.683, 0.721, 0.703, 0.714, 0.642, 0.602, 0.64]",2,2
+utt_00621,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.862,"[0.853, 0.836, 0.898]",2,2
+utt_00623,Ask for directions to the train station.,"pardon, pourriez-vous me dire comment aller a la gare? bon",fr,B2,0.837,"[0.889, 0.839, 0.72, 0.773, 0.824, 0.824, 0.966, 0.733, 0.864, 0.933]",4,4
+utt_00624,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.862,"[0.982, 0.766, 0.839]",2,2
+utt_00625,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio,it,B2,0.708,"[0.762, 0.726, 0.698, 0.749, 0.465, 0.773, 0.719, 0.686, 0.903, 0.643, 0.669]",1,2
+utt_00627,Describe what you did last weekend.,el fin de semana pasado fui al parque y luego cene con unos amigos bueno,es,B1,0.785,"[0.836, 0.765, 0.772, 0.782, 0.807, 0.791, 0.753, 0.772, 0.77, 0.784, 0.797, 0.796, 0.741, 0.813, 0.792]",1,2
+utt_00629,Talk about a book or film you enjoyed recently.,book is good,en,A1,0.832,"[0.829, 0.869, 0.797]",1,1
+utt_00659,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B2,0.645,"[0.596, 0.607, 0.702, 0.592, 0.715, 0.631, 0.615, 0.552, 0.794, 0.648]",2,3
+utt_00665,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen und so weiter",de,C1,0.695,"[0.636, 0.76, 0.718, 0.683, 0.645, 0.652, 0.825, 0.697, 0.746, 0.648, 0.648, 0.765, 0.613, 0.671, 0.699, 0.704, 0.686, 0.722]",2,4
+utt_00667,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.138,"[0.113, 0.248, 0.053]",1,1
+utt_00670,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.692,"[0.642, 0.706, 0.727]",1,2
+utt_00684,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.686,"[0.792, 0.679, 0.587]",2,2
+utt_00693,Talk about a book or film you enjoyed recently.,book is good,en,A2,0.607,"[0.613, 0.707, 0.501]",0,1
+utt_00695,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.593,"[0.586, 0.607, 0.567, 0.658, 0.613, 0.595, 0.524]",2,2
+utt_00696,Talk about your favorite hobby and why you like it.,mon passe-temps prefere est le foot; je l'adore car ca me maintient en forme et j'aime le travail d'equipe bon,fr,B2,0.786,"[0.961, 0.702, 0.79, 0.612, 0.736, 0.755, 0.701, 0.688, 0.862, 0.757, 0.722, 0.894, 0.876, 0.838, 0.871, 0.928, 0.797, 0.716, 0.813, 0.705]",3,4
+utt_00699,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.207,"[0.297, 0.158, 0.165]",1,1
+utt_00702,Talk about a book or film you enjoyed recently.,no sé,en,A1,0.766,"[0.802, 0.731]",0,1
+utt_00707,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.833,"[0.765, 0.732, 0.829, 0.843, 0.813, 0.83, 0.858, 0.879, 0.86, 0.918]",1,2
+utt_00709,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.834,"[0.833, 0.77, 0.899]",2,2
+utt_00711,Talk about your favorite hobby and why you like it.,mon passe-temps prefere est le foot; je l'adore car ca me maintient en forme et j'aime le travail d'equipe tu vois,fr,C1,0.735,"[0.767, 0.757, 0.708, 0.819, 0.788, 0.729, 0.804, 0.732, 0.718, 0.719, 0.67, 0.779, 0.667, 0.696, 0.655, 0.752, 0.748, 0.74, 0.705, 0.699, 0.778]",3,4
+utt_00716,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio sinceramente,it,B2,0.648,"[0.53, 0.738, 0.75, 0.607, 0.719, 0.618, 0.694, 0.586, 0.544, 0.656, 0.676, 0.655]",4,2
+utt_00723,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.705,"[0.627, 0.675, 0.813]",3,1
+utt_00739,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.625,"[0.607, 0.643, 0.629, 0.583, 0.621, 0.635, 0.658]",0,2
+utt_00745,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.963,"[0.976, 0.971, 0.941]",3,2
+utt_00747,Ask for directions to the train station.,excusez-moi ou est la gare s'il vous plait en fait,fr,B1,0.925,"[0.836, 0.968, 0.869, 1.0, 0.972, 0.888, 0.885, 0.923, 0.912, 1.0]",3,2
+utt_00748,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.747,"[0.741, 0.687, 0.843, 0.733, 0.776, 0.694, 0.752]",1,2
+utt_00757,Give your opinion on working from home.,i believe working from home is convenient though it can feel isolating to be honest,en,A1,0.84,"[0.791, 0.803, 0.868, 0.793, 0.879, 0.834, 0.764, 0.911, 0.812, 0.932, 0.814, 0.864, 0.822, 0.844, 0.866]",3,4
+utt_00761,Explain your plans for the summer holidays.,sommer ich gehe strand well,de,A1,0.678,"[0.615, 0.74, 0.709, 0.657, 0.671]",2,1
+utt_00762,Describe what you did last weekend.,el fin de semana fui al parque con amigos well,es,A2,0.861,"[0.79, 0.861, 0.906, 0.716, 0.869, 0.919, 0.812, 0.901, 1.0, 0.837]",3,2
+utt_00763,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio sinceramente,it,B2,0.764,"[0.778, 0.662, 0.756, 0.785, 0.758, 0.634, 0.759, 0.887, 0.783, 0.836, 0.713, 0.814]",3,2
+utt_00766,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.705,"[0.569, 0.79, 0.538, 0.835, 0.673, 0.827, 0.803, 0.545, 0.676, 0.792]",2,2
+utt_00768,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.801,"[0.882, 0.849, 0.764, 0.708, 0.801, 0.781, 0.819]",2,2
+utt_00769,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.618,"[0.576, 0.633, 0.643, 0.77, 0.665, 0.478, 0.767, 0.506, 0.601, 0.538]",2,2
+utt_00777,Ask for directions to the train station.,gare vous plait ou well,fr,A2,0.434,"[0.457, 0.483, 0.442, 0.355, 0.432]",0,1
+utt_00785,Describe your typical workday.,ich arbeite computer you know,de,A1,0.373,"[0.418, 0.464, 0.299, 0.3, 0.384]",0,1
+utt_00787,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.963,"[0.961, 0.963, 0.964]",3,2
+utt_00790,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.701,"[0.773, 0.605, 0.726]",4,1
+utt_00792,Talk about a book or film you enjoyed recently.,no sé,en,A2,0.756,"[0.838, 0.674]",0,1
+utt_00798,Talk about your favorite hobby and why you like it.,mon passe-temps prefere est le foot; je l'adore car ca me maintient en forme et j'aime le travail d'equipe bon,fr,B2,0.856,"[0.935, 0.868, 0.868, 0.767, 0.87, 0.932, 0.787, 0.962, 0.845, 0.783, 0.929, 0.83, 0.911, 0.829, 0.847, 0.89, 0.874, 0.697, 0.765, 0.924]",4,4
+utt_00799,Talk about a book or film you enjoyed recently.,book is good,en,A1,0.443,"[0.511, 0.284, 0.534]",1,1
+utt_00800,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B2,0.821,"[0.716, 0.748, 0.676, 0.902, 0.798, 0.955, 0.875, 0.802, 0.853, 0.88]",2,3
+utt_00805,Describe what you did last weekend.,el fin de semana pasado fui al parque y luego cene con unos amigos o sea,es,B1,0.658,"[0.708, 0.641, 0.621, 0.658, 0.528, 0.691, 0.683, 0.625, 0.728, 0.573, 0.737, 0.666, 0.631, 0.653, 0.647, 0.743]",2,2
+utt_00808,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.339,"[0.324, 0.367, 0.294, 0.37, 0.348, 0.359, 0.314]",1,1
+utt_00818,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio sinceramente,it,C1,0.905,"[0.875, 0.925, 0.879, 0.89, 0.874, 0.832, 0.922, 0.947, 0.943, 0.96, 0.932, 0.883]",4,4
+utt_00821,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.566,"[0.521, 0.581, 0.558, 0.606, 0.558, 0.545, 0.591]",1,2
+utt_00822,Explain how to get from your house to the office.,prendo autobus ufficio well,it,A2,0.575,"[0.614, 0.556, 0.596, 0.533]",1,1
+utt_00826,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.844,"[0.789, 0.77, 0.871, 0.839, 0.839, 0.891, 0.91]",2,2
+utt_00830,Describe your typical workday.,ich fange um neun uhr an zu arbeiten und benutze den ganzen tag den computer also,de,B1,0.108,"[0.097, 0.119, 0.178, 0.062, 0.062, 0.158, 0.108, 0.165, 0.108, 0.024, 0.014, 0.001, 0.129, 0.16, 0.198, 0.14]",0,1
+utt_00837,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio,it,B2,0.669,"[0.691, 0.647, 0.676, 0.748, 0.582, 0.582, 0.66, 0.649, 0.675, 0.748, 0.699]",2,2
+utt_00839,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.556,"[0.49, 0.607, 0.57]",2,2
+utt_00842,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.658,"[0.617, 0.725, 0.633]",1,1
+utt_00846,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio,it,C1,0.838,"[0.798, 0.833, 0.793, 0.867, 0.764, 0.876, 0.916, 0.857, 0.916, 0.824, 0.775]",2,2
+utt_00847,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.96,"[1.0, 0.917, 0.999, 0.963, 0.892, 0.95, 0.997]",4,2
+utt_00851,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.664,"[0.581, 0.754, 0.656]",0,1
+utt_00854,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.559,"[0.57, 0.548, 0.559]",1,1
+utt_00860,Describe your typical workday.,ich fange um neun uhr an zu arbeiten und benutze den ganzen tag den computer also,de,B1,0.785,"[0.813, 0.779, 0.813, 0.818, 0.905, 0.757, 0.72, 0.791, 0.728, 0.864, 0.759, 0.742, 0.748, 0.819, 0.766, 0.737]",2,3
+utt_00866,Talk about your favorite hobby and why you like it.,mon passe-temps prefere est le foot; je l'adore car ca me maintient en forme et j'aime le travail d'equipe tu vois,fr,B2,0.786,"[0.73, 0.691, 0.658, 0.815, 0.809, 0.808, 0.756, 0.87, 0.729, 0.837, 0.762, 0.72, 0.81, 0.796, 0.792, 0.771, 0.763, 0.944, 0.854, 0.819, 0.774]",4,4
+utt_00868,Talk about your favorite hobby and why you like it.,mon passe-temps prefere est le foot; je l'adore car ca me maintient en forme et j'aime le travail d'equipe bon,fr,B2,0.593,"[0.613, 0.669, 0.523, 0.592, 0.476, 0.647, 0.632, 0.63, 0.589, 0.624, 0.722, 0.565, 0.601, 0.499, 0.517, 0.597, 0.681, 0.568, 0.569, 0.555]",2,4
+utt_00872,Talk about your favorite hobby and why you like it.,mon passe-temps prefere est le foot parce que jouer en equipe i mean,fr,B1,0.784,"[0.716, 0.882, 0.79, 0.782, 0.703, 0.75, 0.689, 0.853, 0.895, 0.79, 0.746, 0.721, 0.881]",3,2
+utt_00875,Explain your plans for the summer holidays.,sommer ich strand i mean,de,A1,0.632,"[0.673, 0.652, 0.594, 0.685, 0.558]",3,1
+utt_00893,Talk about your favorite hobby and why you like it.,mon passe-temps prefere est le foot parce que j'aime jouer en equipe bon,fr,B1,0.753,"[0.749, 0.726, 0.904, 0.801, 0.832, 0.723, 0.693, 0.742, 0.775, 0.705, 0.783, 0.658, 0.7]",3,2
+utt_00901,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen und so weiter",de,B2,0.918,"[0.815, 0.959, 0.902, 0.923, 0.864, 1.0, 0.992, 0.863, 0.82, 0.888, 0.948, 0.934, 1.0, 0.974, 0.987, 0.94, 0.816, 0.902]",4,4
+utt_00903,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio,it,C1,0.605,"[0.665, 0.559, 0.435, 0.506, 0.517, 0.832, 0.687, 0.719, 0.42, 0.537, 0.776]",1,2
+utt_00923,Describe your typical workday.,ich fange um neun uhr an zu arbeiten und benutze den ganzen tag den computer also,de,B1,0.688,"[0.698, 0.608, 0.692, 0.735, 0.811, 0.662, 0.597, 0.755, 0.61, 0.672, 0.684, 0.696, 0.746, 0.656, 0.683, 0.7]",1,3
+utt_00929,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio,it,B2,0.852,"[0.906, 0.827, 0.802, 0.866, 0.877, 1.0, 0.853, 0.782, 0.888, 0.712, 0.86]",2,2
+utt_00930,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.216,"[0.223, 0.272, 0.283, 0.191, 0.213, 0.175, 0.152]",2,1
+utt_00937,Explain your plans for the summer holidays.,ich gehe strand well,de,A1,0.798,"[0.815, 0.827, 0.809, 0.742]",3,1
+utt_00941,Order a coffee and a pastry at a cafe.,"podria darme un cafe y un croissant de chocolate, por favor? gracias o sea",es,C1,0.222,"[0.254, 0.225, 0.177, 0.296, 0.276, 0.207, 0.228, 0.232, 0.181, 0.214, 0.198, 0.234, 0.218, 0.174]",4,3
+utt_00945,Ask for directions to the train station.,"pardon, pourriez-vous me dire comment aller a la gare? well",fr,B2,0.838,"[0.818, 0.76, 0.864, 0.893, 0.859, 0.941, 0.845, 0.714, 0.92, 0.763]",4,4
+utt_00946,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,B2,0.847,"[0.889, 0.935, 0.858, 0.724, 0.763, 0.918, 0.815, 0.832, 0.879, 0.875, 0.846, 0.812, 0.805, 0.886, 0.865]",4,4
+utt_00947,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio,it,B2,0.86,"[0.856, 0.954, 0.865, 0.812, 0.819, 0.803, 0.854, 0.965, 0.815, 0.888, 0.826]",4,2
+utt_00948,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B2,0.754,"[0.789, 0.819, 0.713, 0.641, 0.754, 0.696, 0.869, 0.685, 0.754, 0.815]",2,3
+utt_00959,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.84,"[0.756, 0.955, 0.663, 0.874, 0.789, 0.921, 0.883, 0.75, 0.949, 0.856]",2,2
+utt_00961,Give your opinion on working from home.,i believe working from home is convenient though it can feel isolating and so on,en,B2,0.879,"[0.867, 0.883, 0.991, 0.786, 0.892, 0.921, 0.845, 0.999, 0.82, 0.851, 0.867, 0.946, 0.864, 0.872, 0.778]",3,4
+utt_00962,Explain your plans for the summer holidays.,fuer die sommerferien plane ich nach spanien zu reisen und die kueste zu besuchen also,de,B2,0.822,"[0.776, 0.91, 0.78, 0.891, 0.807, 0.677, 0.792, 0.742, 0.841, 0.741, 0.914, 0.831, 0.824, 0.892, 0.917]",2,4
+utt_00965,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.504,"[0.481, 0.484, 0.52, 0.498, 0.549, 0.484, 0.512]",0,2
+utt_00970,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen weißt du",de,C1,0.969,"[0.955, 0.95, 0.964, 1.0, 0.964, 0.971, 0.95, 1.0, 1.0, 0.992, 0.976, 0.974, 0.865, 1.0, 0.978, 0.991, 0.94]",4,4
+utt_00975,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.515,"[0.509, 0.519, 0.518]",0,1
+utt_00978,Talk about a book or film you enjoyed recently.,book is good,en,A1,0.727,"[0.635, 0.836, 0.71]",1,1
+utt_00982,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,B2,0.953,"[0.906, 0.977, 0.947, 0.989, 0.953, 0.881, 0.96, 1.0, 0.955, 0.996, 0.902, 0.955, 0.924, 0.995, 0.958]",3,4
+utt_00997,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.209,"[0.186, 0.242, 0.2]",3,1
+utt_01008,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.783,"[0.774, 0.783, 0.791]",2,2
+utt_01010,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.68,"[0.688, 0.679, 0.674]",2,2
+utt_01012,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.677,"[0.701, 0.697, 0.686, 0.848, 0.573, 0.714, 0.562, 0.692, 0.669, 0.632]",1,2
+utt_01017,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.29,"[0.299, 0.358, 0.212]",0,1
+utt_01021,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio sinceramente,it,B2,0.91,"[0.852, 0.834, 0.96, 0.916, 0.95, 0.937, 0.881, 0.936, 0.866, 1.0, 0.859, 0.927]",4,2
+utt_01026,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.694,"[0.764, 0.636, 0.732, 0.597, 0.744, 0.676, 0.708]",2,2
+utt_01027,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B2,0.675,"[0.748, 0.544, 0.742, 0.625, 0.538, 0.65, 0.721, 0.667, 0.744, 0.771]",1,3
+utt_01031,Give your opinion on working from home.,"personally i think remote work boosts productivity, but you have to be disciplined to avoid isolation well",en,B1,0.822,"[0.779, 0.712, 0.758, 0.795, 0.914, 0.736, 0.933, 0.798, 0.972, 0.735, 0.933, 0.745, 0.851, 0.877, 0.899, 0.72, 0.809]",4,4
+utt_01040,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.788,"[0.775, 0.788, 0.8]",2,2
+utt_01049,Ask for directions to the train station.,excusez-moi ou est la gare s'il vous plait en fait,fr,B1,0.702,"[0.663, 0.664, 0.808, 0.698, 0.694, 0.628, 0.716, 0.721, 0.764, 0.668]",1,2
+utt_01055,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.737,"[0.855, 0.712, 0.65, 0.835, 0.65, 0.701, 0.787, 0.691, 0.781, 0.706]",2,2
+utt_01062,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.89,"[0.794, 0.938, 0.937, 0.947, 0.911, 0.79, 0.999, 0.83, 0.872, 0.882]",1,3
+utt_01065,Describe what you did last weekend.,"el fin de semana pasado visite el parque, di un largo paseo y luego cene con viejos amigos etcetera",es,B2,0.919,"[0.819, 1.0, 1.0, 0.836, 0.972, 0.922, 0.821, 0.954, 0.976, 0.883, 0.998, 0.813, 0.825, 0.931, 0.924, 0.875, 0.975, 0.956, 0.978]",4,3
+utt_01079,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.957,"[0.949, 0.931, 0.991]",1,2
+utt_01087,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.652,"[0.574, 0.682, 0.699]",2,1
+utt_01088,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.837,"[0.968, 0.772, 0.732, 0.763, 0.728, 0.939, 0.956]",1,2
+utt_01094,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.353,"[0.372, 0.333, 0.358, 0.361, 0.342, 0.345, 0.361]",0,1
+utt_01103,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.351,"[0.344, 0.39, 0.318]",0,1
+utt_01116,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B1,0.663,"[0.76, 0.557, 0.765, 0.618, 0.755, 0.615, 0.667, 0.629, 0.654, 0.614]",2,2
+utt_01139,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.666,"[0.69, 0.657, 0.794, 0.552, 0.678, 0.587, 0.701]",2,2
+utt_01146,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B1,0.811,"[0.814, 0.798, 0.857, 0.773, 0.836, 0.821, 0.862, 0.755, 0.783, 0.81]",2,3
+utt_01147,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,es,A2,0.678,"[0.841, 0.686, 0.53, 0.643, 0.673, 0.685, 0.691]",2,2
+utt_01151,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B1,0.809,"[0.873, 0.802, 0.882, 0.841, 0.787, 0.739, 0.827, 0.807, 0.758, 0.777]",2,3
+utt_01156,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,C1,0.711,"[0.706, 0.522, 0.627, 0.64, 0.777, 0.734, 0.64, 0.738, 0.811, 0.813, 0.589, 0.752, 0.636, 0.847, 0.837]",4,4
+utt_01157,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio,it,B2,0.639,"[0.627, 0.634, 0.651, 0.552, 0.695, 0.662, 0.731, 0.616, 0.642, 0.593, 0.621]",1,2
+utt_01166,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.793,"[0.846, 0.732, 0.799, 0.809, 0.82, 0.866, 0.859, 0.744, 0.712, 0.739]",2,2
+utt_01167,Talk about a book or film you enjoyed recently.,book is good,en,A1,0.813,"[0.784, 0.839, 0.816]",0,1
+utt_01168,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.677,"[0.681, 0.663, 0.689, 0.71, 0.626, 0.649, 0.679, 0.761, 0.678, 0.629]",2,2
+utt_01170,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.904,"[0.862, 0.913, 0.936]",2,2
+utt_01173,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B1,0.822,"[0.743, 0.82, 0.819, 0.79, 0.677, 0.926, 0.824, 0.955, 0.792, 0.876]",2,3
+utt_01180,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.663,"[0.732, 0.688, 0.57]",1,1
+utt_01185,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.705,"[0.757, 0.548, 0.702, 0.756, 0.704, 0.574, 0.894]",1,2
+utt_01187,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.727,"[0.673, 0.776, 0.733]",2,1
+utt_01201,Talk about a book or film you enjoyed recently.,book is good,en,A1,0.496,"[0.464, 0.435, 0.589]",1,1
+utt_01202,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.775,"[0.878, 0.781, 0.666]",4,1
+utt_01207,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.807,"[0.741, 0.788, 0.892]",2,2
+utt_01212,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.68,"[0.634, 0.695, 0.711]",0,2
+utt_01213,Describe what you did last weekend.,"el fin de semana pasado visite el parque, di un largo paseo y luego cene con viejos amigos etcetera",es,C1,0.806,"[0.887, 0.806, 0.648, 0.819, 0.86, 0.78, 0.909, 0.847, 0.826, 0.863, 0.81, 0.611, 0.751, 0.87, 0.729, 0.77, 0.713, 0.912, 0.904]",4,3
+utt_01224,Ask for directions to the train station.,excusez-moi ou est la gare s'il vous plait en fait,fr,B1,0.789,"[0.995, 0.731, 0.807, 0.726, 0.893, 0.781, 0.685, 0.866, 0.671, 0.733]",3,2
+utt_01231,Describe your typical workday.,"an einem tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen you know",de,B2,0.717,"[0.838, 0.844, 0.73, 0.712, 0.783, 0.787, 0.657, 0.676, 0.622, 0.74, 0.758, 0.62, 0.681, 0.62, 0.651, 0.75]",4,3
+utt_01232,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.719,"[0.732, 0.769, 0.655]",2,2
+utt_01236,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,B2,0.542,"[0.502, 0.561, 0.483, 0.614, 0.566, 0.586, 0.538, 0.543, 0.579, 0.5, 0.543, 0.516, 0.515, 0.448, 0.636]",3,3
+utt_01238,Talk about a book or film you enjoyed recently.,i recently enjoyed a film about space travel; the story was really moving i mean,en,B1,0.743,"[0.706, 0.797, 0.73, 0.696, 0.762, 0.69, 0.801, 0.77, 0.766, 0.741, 0.694, 0.877, 0.689, 0.807, 0.613]",4,3
+utt_01240,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.797,"[0.898, 0.831, 0.844, 0.747, 0.815, 0.857, 0.808, 0.633, 0.828, 0.71]",2,2
+utt_01241,Order a coffee and a pastry at a cafe.,"podria darme un cafe y un croissant de chocolate, por favor? gracias o sea",es,B2,0.52,"[0.495, 0.427, 0.463, 0.533, 0.473, 0.528, 0.476, 0.491, 0.575, 0.544, 0.531, 0.577, 0.556, 0.606]",1,3
+utt_01244,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.791,"[0.717, 0.816, 0.729, 0.741, 0.843, 0.8, 0.842, 0.734, 0.845, 0.846]",2,2
+utt_01245,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio sinceramente,it,C1,0.69,"[0.756, 0.656, 0.741, 0.58, 0.778, 0.569, 0.632, 0.606, 0.546, 0.693, 0.828, 0.896]",3,2
+utt_01249,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.682,"[0.671, 0.7, 0.767, 0.822, 0.476, 0.539, 0.798]",2,2
+utt_01251,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.962,"[0.99, 0.999, 0.999, 0.888, 0.954, 0.957, 0.951, 0.897, 0.982, 0.999]",2,3
+utt_01253,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.892,"[0.837, 0.917, 0.923]",3,2
+utt_01270,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B1,0.676,"[0.708, 0.739, 0.603, 0.693, 0.552, 0.873, 0.766, 0.636, 0.643, 0.543]",2,2
+utt_01277,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.691,"[0.482, 0.754, 0.727, 0.598, 0.748, 0.76, 0.769]",2,2
+utt_01281,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,B2,0.749,"[0.645, 0.687, 0.73, 0.87, 0.731, 0.814, 0.741, 0.705, 0.721, 0.727, 0.78, 0.834, 0.763, 0.821, 0.671]",4,4
+utt_01283,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.84,"[0.662, 1.0, 0.858]",1,2
+utt_01284,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.542,"[0.44, 0.549, 0.543, 0.537, 0.591, 0.578, 0.556]",1,2
+utt_01287,Talk about your favorite hobby and why you like it.,mon passe-temps prefere est le foot parce que j'aime jouer en equipe en fait,fr,B1,0.73,"[0.714, 0.658, 0.712, 0.738, 0.772, 0.701, 0.833, 0.669, 0.631, 0.805, 0.598, 0.725, 0.929, 0.737]",1,2
+utt_01288,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio,it,B2,0.805,"[0.68, 0.783, 0.783, 0.804, 0.852, 0.688, 0.951, 0.812, 0.858, 0.727, 0.913]",3,2
+utt_01295,Describe what you did last weekend.,"el fin de semana pasado visite el parque, di un largo paseo y luego cene con viejos amigos etcetera",fr,B2,0.796,"[0.844, 0.837, 0.817, 0.904, 0.754, 0.812, 0.715, 0.954, 0.917, 0.762, 0.791, 0.868, 0.749, 0.709, 0.83, 0.767, 0.775, 0.695, 0.626]",3,3
+utt_01299,Describe your typical workday.,ich fange um neun uhr an zu arbeiten und benutze den ganzen tag den computer und so weiter,de,B1,0.727,"[0.827, 0.869, 0.73, 0.819, 0.66, 0.807, 0.805, 0.793, 0.732, 0.529, 0.688, 0.69, 0.665, 0.741, 0.704, 0.676, 0.66, 0.683]",3,3
+utt_01303,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.584,"[0.515, 0.592, 0.617, 0.643, 0.694, 0.61, 0.414]",1,2
+utt_01305,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.724,"[0.684, 0.703, 0.8, 0.618, 0.673, 0.663, 0.822, 0.835, 0.665, 0.775]",2,2
+utt_01310,Talk about a book or film you enjoyed recently.,book is good,en,A1,0.56,"[0.553, 0.505, 0.623]",0,1
+utt_01311,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.661,"[0.723, 0.689, 0.735, 0.571, 0.727, 0.62, 0.713, 0.702, 0.544, 0.585]",2,2
+utt_01317,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.498,"[0.438, 0.595, 0.46]",0,1
+utt_01318,Explain your plans for the summer holidays.,diesen sommer moechte ich mit meiner familie spanien fahren you know,de,B1,0.696,"[0.649, 0.631, 0.812, 0.626, 0.569, 0.719, 0.776, 0.732, 0.647, 0.759, 0.736]",1,2
+utt_01319,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.94,"[0.954, 0.975, 0.89]",2,2
+utt_01320,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.588,"[0.588, 0.588, 0.589]",0,2
+utt_01330,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.513,"[0.506, 0.631, 0.403]",1,1
+utt_01340,Talk about a book or film you enjoyed recently.,book is good,en,A2,0.74,"[0.734, 0.811, 0.674]",0,1
+utt_01346,Describe what you did last weekend.,fin de semana fui al parque con amigos i mean,es,A2,0.78,"[0.75, 0.745, 0.833, 0.86, 0.755, 0.677, 0.888, 0.773, 0.926, 0.592]",4,2
+utt_01350,Talk about a book or film you enjoyed recently.,book is good,en,C1,0.63,"[0.65, 0.605, 0.636]",1,1
+utt_01352,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.652,"[0.602, 0.723, 0.631]",1,1
+utt_01360,Describe what you did last weekend.,el fin de semana pasado fui al parque y luego cene con unos amigos sabes,es,B1,0.656,"[0.64, 0.635, 0.604, 0.64, 0.545, 0.623, 0.647, 0.699, 0.662, 0.709, 0.741, 0.724, 0.691, 0.665, 0.609]",1,2
+utt_01367,Talk about a book or film you enjoyed recently.,no,en,A1,0.735,[0.735],0,2
+utt_01369,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen und so weiter",de,C1,0.751,"[0.692, 0.611, 0.857, 0.808, 0.743, 0.874, 0.808, 0.668, 0.647, 0.822, 0.783, 0.761, 0.666, 0.802, 0.674, 0.736, 0.881, 0.683]",4,4
+utt_01372,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.822,"[0.854, 0.825, 0.796, 0.872, 0.77, 0.858, 0.779]",3,2
+utt_01374,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.713,"[0.917, 0.719, 0.666, 0.683, 0.619, 0.681, 0.755, 0.598, 0.746, 0.743]",2,2
+utt_01379,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen weißt du",de,B2,0.459,"[0.439, 0.486, 0.479, 0.509, 0.45, 0.433, 0.452, 0.498, 0.414, 0.407, 0.463, 0.45, 0.461, 0.486, 0.447, 0.412, 0.514]",0,3
+utt_01385,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.443,"[0.2, 0.576, 0.553]",0,2
+utt_01388,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.537,"[0.582, 0.482, 0.547]",0,2
+utt_01389,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.499,"[0.506, 0.55, 0.521, 0.459, 0.544, 0.478, 0.436]",1,2
+utt_01398,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen weißt du",de,B2,0.702,"[0.658, 0.61, 0.731, 0.71, 0.593, 0.811, 0.701, 0.744, 0.809, 0.674, 0.703, 0.752, 0.601, 0.677, 0.685, 0.578, 0.9]",3,3
+utt_01402,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B1,0.745,"[0.858, 0.737, 0.72, 0.729, 0.744, 0.736, 0.675, 0.75, 0.758, 0.738]",2,3
+utt_01404,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B1,0.89,"[0.704, 0.921, 0.977, 0.999, 0.899, 0.793, 0.974, 0.942, 0.889, 0.806]",3,3
+utt_01406,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio,it,C1,0.802,"[0.749, 0.815, 0.844, 0.718, 0.782, 0.792, 0.784, 0.847, 0.825, 0.8, 0.862]",4,2
+utt_01407,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.714,"[0.796, 0.791, 0.554]",2,2
+utt_01410,Order a coffee and a pastry at a cafe.,un cafe croissant,fr,A2,0.943,"[0.928, 0.949, 0.951]",1,2
+utt_01415,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.777,"[0.798, 0.758, 0.776]",3,2
+utt_01417,Describe your typical workday.,ich fange um neun uhr an zu arbeiten und benutze den ganzen tag den computer und so weiter,de,B1,0.907,"[0.944, 0.953, 0.872, 0.88, 0.861, 0.878, 0.775, 0.953, 1.0, 0.933, 0.85, 0.891, 0.901, 0.871, 0.97, 0.967, 0.864, 0.963]",4,3
+utt_01418,Give your opinion on working from home.,"personally i think remote work boosts productivity, but you have to be disciplined to avoid isolation well",en,C1,0.962,"[0.968, 0.965, 0.999, 0.972, 0.976, 0.937, 0.882, 0.95, 0.999, 0.999, 0.999, 0.829, 0.999, 0.981, 0.908, 0.999, 0.987]",4,4
+utt_01420,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.735,"[0.614, 1.0, 0.682, 0.652, 0.766, 0.653, 0.775]",1,2
+utt_01424,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.799,"[0.82, 0.854, 0.923, 0.748, 0.762, 0.69, 0.798]",1,2
+utt_01426,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.719,"[0.77, 0.716, 0.67]",1,2
+utt_01442,Describe your typical workday.,ich fange um neun uhr an zu arbeiten und benutze den ganzen tag den computer also,de,B1,0.811,"[0.78, 0.904, 0.799, 0.731, 0.798, 0.762, 0.805, 0.821, 0.861, 0.783, 0.888, 0.842, 0.74, 0.924, 0.805, 0.732]",2,3
+utt_01446,Describe what you did last weekend.,el fin de semana pasado fui al parque y luego cene con unos amigos o sea,es,B1,0.896,"[0.944, 0.921, 1.0, 0.895, 0.894, 1.0, 1.0, 0.775, 0.907, 0.817, 0.879, 0.72, 0.938, 0.865, 0.952, 0.83]",2,2
+utt_01448,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.785,"[0.759, 0.743, 0.805, 0.989, 0.722, 0.76, 0.657, 0.785, 0.656, 0.972]",2,2
+utt_01451,Give your opinion on working from home.,i believe working from home is convenient though it can feel isolating and so on,en,A1,0.773,"[0.775, 0.745, 0.828, 0.684, 0.732, 0.85, 0.652, 0.825, 0.82, 0.771, 0.877, 0.671, 0.786, 0.807, 0.777]",3,4
+utt_01455,Give your opinion on working from home.,no sé,en,A1,0.829,"[0.811, 0.847]",0,1
+utt_01461,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.803,"[0.698, 0.743, 0.967, 0.839, 0.84, 0.777, 0.754]",1,2
+utt_01470,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.726,"[0.892, 0.577, 0.709]",3,1
+utt_01471,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.668,"[0.65, 0.753, 0.601]",2,2
+utt_01472,Talk about your favorite hobby and why you like it.,mon passe-temps prefere est le foot; je l'adore car ca me maintient en forme et j'aime le travail d'equipe bon,fr,B2,0.96,"[0.981, 0.94, 0.936, 0.906, 0.947, 1.0, 0.965, 0.992, 1.0, 0.977, 0.943, 0.986, 0.944, 0.945, 0.903, 1.0, 0.95, 0.974, 0.923, 0.984]",4,4
+utt_01484,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.592,"[0.562, 0.612, 0.603]",0,1
+utt_01485,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.645,"[0.616, 0.752, 0.568]",1,2
+utt_01486,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,B2,0.323,"[0.22, 0.32, 0.289, 0.567, 0.369, 0.289, 0.241, 0.181, 0.244, 0.327, 0.424, 0.401, 0.336, 0.295, 0.339]",3,3
+utt_01489,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.689,"[0.818, 0.619, 0.629]",1,2
+utt_01492,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,B2,0.945,"[1.0, 0.863, 1.0, 0.921, 0.929, 0.885, 0.976, 1.0, 1.0, 0.9, 1.0, 0.934, 1.0, 1.0, 0.774]",3,4
+utt_01500,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.957,"[0.936, 0.926, 0.962, 0.992, 0.99, 0.896, 1.0]",3,2
+utt_01502,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B2,0.712,"[0.763, 0.697, 0.769, 0.634, 0.679, 0.746, 0.62, 0.65, 0.764, 0.798]",2,3
+utt_01504,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen und so weiter",de,C1,0.8,"[0.957, 0.784, 0.959, 0.759, 0.75, 0.783, 0.763, 0.753, 0.902, 0.793, 0.855, 0.89, 0.819, 0.67, 0.628, 0.793, 0.758, 0.786]",2,4
+utt_01515,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.881,"[0.876, 0.842, 0.926]",3,2
+utt_01537,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.441,"[0.341, 0.508, 0.475]",0,2
+utt_01539,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B1,0.521,"[0.533, 0.596, 0.559, 0.415, 0.496, 0.52, 0.526, 0.531, 0.601, 0.434]",3,2
+utt_01551,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.941,"[0.967, 0.832, 0.957, 1.0, 0.984, 0.979, 0.866]",3,2
+utt_01558,Talk about your favorite hobby and why you like it.,mon passe-temps prefere est le foot; je l'adore car ca me maintient en forme et j'aime le travail d'equipe bon,fr,B2,0.682,"[0.636, 0.551, 0.741, 0.666, 0.735, 0.845, 0.507, 0.629, 0.67, 0.811, 0.55, 0.851, 0.699, 0.68, 0.671, 0.651, 0.776, 0.598, 0.717, 0.656]",2,4
+utt_01564,Describe your typical workday.,ich fange um neun uhr an zu arbeiten und benutze den ganzen tag den computer also,de,B1,0.766,"[0.746, 0.677, 0.689, 0.793, 0.769, 0.774, 0.848, 0.749, 0.722, 0.851, 0.757, 0.702, 0.779, 0.842, 0.713, 0.839]",3,3
+utt_01571,Talk about a book or film you enjoyed recently.,book is good,en,A2,0.577,"[0.441, 0.67, 0.621]",2,1
+utt_01575,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio,it,B2,0.826,"[0.844, 0.822, 0.764, 0.864, 0.891, 0.815, 0.829, 0.817, 0.83, 0.804, 0.808]",1,2
+utt_01586,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.761,"[0.856, 0.708, 0.781, 0.824, 0.679, 0.645, 0.811, 0.927, 0.603, 0.773]",3,2
+utt_01592,Give your opinion on working from home.,"personally i think remote work boosts productivity, but you have to be disciplined to avoid isolation well",en,C1,0.9,"[0.987, 0.999, 0.839, 0.914, 0.954, 0.999, 0.888, 0.973, 0.935, 0.808, 0.804, 0.781, 0.851, 0.931, 0.747, 0.92, 0.967]",3,4
+utt_01596,Talk about a book or film you enjoyed recently.,book is good,en,A1,0.665,"[0.575, 0.735, 0.686]",1,1
+utt_01598,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.763,"[0.717, 0.688, 0.746, 0.809, 0.825, 0.822, 0.733]",3,2
+utt_01599,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.766,"[0.708, 0.792, 0.799]",2,1
+utt_01600,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio,it,B2,0.832,"[0.867, 0.643, 0.75, 0.827, 0.875, 0.901, 0.843, 0.861, 0.838, 0.893, 0.859]",4,2
+utt_01605,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.651,"[0.513, 0.764, 0.57, 0.697, 0.756, 0.621, 0.737, 0.676, 0.607, 0.568]",2,2
+utt_01609,Describe what you did last weekend.,el fin de semana pasado fui al parque y luego cene con unos amigos o sea,es,B1,0.652,"[0.685, 0.643, 0.648, 0.631, 0.628, 0.702, 0.571, 0.559, 0.555, 0.836, 0.702, 0.682, 0.561, 0.71, 0.644, 0.674]",1,2
+utt_01614,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.779,"[0.904, 0.723, 0.627, 0.829, 0.898, 0.795, 0.677]",1,2
+utt_01622,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,C1,0.617,"[0.681, 0.615, 0.573, 0.476, 0.737, 0.599, 0.673, 0.627, 0.61, 0.577]",2,3
+utt_01627,Give your opinion on working from home.,"personally i think remote work boosts productivity, but you have to be disciplined to avoid isolation and so on",en,B2,0.941,"[0.999, 0.873, 0.896, 0.999, 0.999, 0.841, 0.999, 0.987, 0.93, 0.999, 0.999, 0.816, 0.999, 0.863, 0.972, 0.858, 0.901, 0.949, 0.999]",4,4
+utt_01632,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.608,"[0.647, 0.66, 0.517]",2,2
+utt_01640,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.723,"[0.701, 0.747, 0.722]",1,1
+utt_01645,Give your opinion on working from home.,"personally i think remote work boosts productivity, but you have to be disciplined to avoid isolation well",en,B2,0.716,"[0.77, 0.665, 0.763, 0.731, 0.799, 0.732, 0.819, 0.688, 0.606, 0.672, 0.696, 0.499, 0.595, 0.844, 0.811, 0.755, 0.722]",4,4
+utt_01657,Order a coffee and a pastry at a cafe.,"podria darme un cafe y un croissant de chocolate, por favor? gracias o sea",es,B2,0.726,"[0.801, 0.554, 0.608, 0.753, 0.707, 0.748, 0.71, 0.746, 0.65, 0.746, 0.775, 0.791, 0.845, 0.723]",2,3
+utt_01670,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.666,"[0.666, 0.665, 0.668]",0,2
+utt_01671,Talk about a book or film you enjoyed recently.,book is good,en,A2,0.633,"[0.769, 0.542, 0.588]",1,1
+utt_01672,Order a coffee and a pastry at a cafe.,"podria darme un cafe y un croissant de chocolate, por favor? gracias o sea",es,B2,0.871,"[0.903, 0.832, 0.805, 0.964, 0.958, 0.755, 0.861, 0.971, 0.86, 0.859, 0.87, 0.826, 0.796, 0.939]",1,3
+utt_01686,Talk about a book or film you enjoyed recently.,book is good,en,A2,0.626,"[0.685, 0.669, 0.523]",1,1
+utt_01687,Talk about a book or film you enjoyed recently.,no sé,en,A2,0.543,"[0.618, 0.468]",0,1
+utt_01691,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.88,"[0.999, 0.897, 0.943, 0.863, 0.891, 0.868, 0.788, 0.807, 0.913, 0.835]",2,3
+utt_01693,Talk about a book or film you enjoyed recently.,book is good,en,A2,0.543,"[0.551, 0.516, 0.562]",0,1
+utt_01697,Talk about a book or film you enjoyed recently.,book is good,en,A2,0.678,"[0.644, 0.774, 0.615]",1,1
+utt_01700,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.967,"[0.965, 0.935, 1.0]",4,2
+utt_01708,Talk about a book or film you enjoyed recently.,i recently enjoyed a film about space travel; the story was really moving i mean,en,B1,0.929,"[0.859, 0.869, 0.828, 0.998, 0.879, 0.999, 0.999, 0.925, 0.842, 0.95, 0.999, 0.846, 0.972, 0.975, 0.999]",2,3
+utt_01709,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.58,"[0.569, 0.588, 0.582]",1,2
+utt_01714,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.763,"[0.661, 0.683, 0.708, 0.803, 0.701, 0.924, 0.861]",1,2
+utt_01722,Talk about a book or film you enjoyed recently.,book is good,en,A2,0.616,"[0.672, 0.603, 0.573]",0,1
+utt_01728,Describe your typical workday.,ich fange um neun uhr an zu arbeiten und benutze den ganzen tag den computer und so weiter,de,B1,0.821,"[0.965, 0.638, 0.735, 0.76, 0.778, 0.894, 0.8, 0.86, 0.753, 0.841, 0.898, 0.742, 0.898, 0.823, 0.925, 0.797, 0.857, 0.813]",1,3
+utt_01739,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.74,"[0.833, 0.819, 0.892, 0.712, 0.745, 0.633, 0.74, 0.641, 0.641, 0.747]",2,2
+utt_01742,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,de,A2,0.857,"[0.807, 0.795, 0.878, 0.933, 0.874, 0.944, 0.766]",2,2
+utt_01751,Talk about a book or film you enjoyed recently.,i recently enjoyed a film about space travel; the story was really moving i mean,en,B2,0.699,"[0.674, 0.893, 0.805, 0.677, 0.609, 0.61, 0.623, 0.807, 0.723, 0.758, 0.653, 0.623, 0.741, 0.636, 0.652]",2,3
+utt_01752,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B2,0.824,"[0.943, 0.74, 0.999, 0.825, 0.866, 0.852, 0.791, 0.7, 0.713, 0.813]",2,3
+utt_01759,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.887,"[0.96, 0.787, 0.913]",1,2
+utt_01767,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.389,"[0.413, 0.306, 0.413, 0.539, 0.37, 0.399, 0.282]",1,1
+utt_01768,Order a coffee and a pastry at a cafe.,"podria darme un cafe y un croissant de chocolate, por favor? gracias o sea",es,B2,0.969,"[0.988, 0.999, 0.895, 0.903, 0.988, 0.999, 0.999, 0.988, 0.999, 0.999, 0.892, 0.999, 0.917, 0.999]",3,3
+utt_01777,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.858,"[0.82, 0.797, 0.753, 0.901, 0.869, 0.999, 0.734, 0.989, 0.863, 0.854]",3,2
+utt_01783,Talk about a book or film you enjoyed recently.,book is good,en,B2,0.827,"[0.88, 0.791, 0.811]",2,1
+utt_01786,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.86,"[0.859, 0.915, 0.805]",3,2
+utt_01790,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B1,0.807,"[0.834, 0.758, 0.859, 0.812, 0.697, 0.787, 0.819, 0.836, 0.787, 0.883]",3,3
+utt_01793,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B1,0.725,"[0.729, 0.659, 0.812, 0.654, 0.69, 0.703, 0.723, 0.73, 0.756, 0.792]",2,2
+utt_01798,Ask for directions to the train station.,excusez-moi ou est la gare s'il vous plait en fait,fr,B1,0.582,"[0.535, 0.46, 0.608, 0.548, 0.59, 0.587, 0.653, 0.612, 0.603, 0.627]",1,2
+utt_01800,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.68,"[0.66, 0.724, 0.572, 0.621, 0.625, 0.704, 0.763, 0.731, 0.674, 0.722]",2,2
+utt_01807,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.706,"[0.696, 0.688, 0.619, 0.719, 0.667, 0.631, 0.681, 0.862, 0.744, 0.749]",2,2
+utt_01810,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.724,"[0.752, 0.745, 0.676]",3,1
+utt_01818,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.765,"[0.739, 0.758, 0.797]",2,1
+utt_01819,Ask for directions to the train station.,"pardon, pourriez-vous me dire comment aller a la gare? well",fr,B2,0.772,"[0.879, 0.788, 0.78, 0.783, 0.683, 0.757, 0.748, 0.77, 0.757, 0.774]",3,4
+utt_01828,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.894,"[0.856, 0.895, 0.932]",1,2
+utt_01830,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio,it,B2,0.785,"[0.894, 0.809, 0.832, 0.752, 0.802, 0.688, 0.791, 0.781, 0.757, 0.826, 0.701]",2,2
+utt_01841,Talk about a book or film you enjoyed recently.,book is good,en,A2,0.653,"[0.637, 0.712, 0.611]",2,1
+utt_01842,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.729,"[0.725, 0.699, 0.763]",1,1
+utt_01846,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.719,"[0.654, 0.757, 0.746]",2,1
+utt_01849,Ask for directions to the train station.,gare vous plait ou i mean,fr,A2,0.826,"[0.76, 0.896, 0.822, 0.798, 0.798, 0.884]",3,2
+utt_01853,Order a coffee and a pastry at a cafe.,un cafe croissant,es,A2,0.899,"[0.792, 0.975, 0.929]",1,2
+utt_01860,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.698,"[0.742, 0.642, 0.672, 0.742, 0.719, 0.72, 0.618, 0.788, 0.753, 0.587]",1,2
+utt_01861,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A1,0.639,"[0.626, 0.732, 0.608, 0.605, 0.701, 0.602, 0.643, 0.586, 0.66, 0.631]",1,2
+utt_01864,Ask for directions to the train station.,"pardon, pourriez-vous me dire comment aller a la gare? bon",fr,B2,0.63,"[0.731, 0.542, 0.651, 0.663, 0.713, 0.45, 0.687, 0.579, 0.7, 0.589]",2,4
+utt_01867,Talk about a book or film you enjoyed recently.,book is good,en,A2,0.532,"[0.565, 0.55, 0.482]",2,1
+utt_01871,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,B2,0.966,"[0.93, 0.974, 1.0, 0.94, 0.953, 0.986, 1.0, 0.928, 0.967, 0.98, 0.969, 0.899, 0.986, 1.0, 0.975]",4,4
+utt_01878,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.583,"[0.563, 0.584, 0.687, 0.509, 0.533, 0.588, 0.62, 0.553, 0.538, 0.656]",3,2
+utt_01882,Describe your typical workday.,ich fange um neun uhr an zu arbeiten und benutze den ganzen tag den computer also,de,B1,0.825,"[0.718, 0.858, 0.793, 0.828, 0.894, 0.918, 0.846, 0.681, 0.768, 0.939, 0.605, 0.966, 0.905, 0.978, 0.838, 0.667]",4,3
+utt_01884,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,B2,0.793,"[0.739, 0.723, 0.695, 0.814, 0.888, 0.79, 0.694, 0.864, 0.926, 0.757, 0.769, 0.841, 0.921, 0.766, 0.707]",2,4
+utt_01889,Explain how to get from your house to the office.,prendo l'autobus numero dieci e poi cammino cinque minuti fino all'ufficio,it,B2,0.728,"[0.754, 0.875, 0.672, 0.737, 0.734, 0.639, 0.791, 0.705, 0.744, 0.64, 0.722]",3,2
+utt_01895,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.935,"[0.904, 0.901, 1.0]",2,2
+utt_01896,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.807,"[0.716, 0.795, 0.793, 0.702, 0.811, 0.874, 0.81, 0.86, 0.833, 0.873]",2,2
+utt_01902,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen",de,B2,0.719,"[0.757, 0.703, 0.71, 0.781, 0.721, 0.732, 0.724, 0.702, 0.773, 0.71, 0.693, 0.713, 0.668, 0.707, 0.698]",2,4
+utt_01919,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.784,"[0.825, 0.892, 0.731, 0.659, 0.743, 0.81, 0.83, 0.78, 0.738, 0.833]",2,2
+utt_01924,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.755,"[0.78, 0.676, 0.809]",3,1
+utt_01925,Describe your typical workday.,"an einem typischen tag fange ich um neun an, beantworte e-mails und habe nachmittags besprechungen und so weiter",de,B2,0.782,"[0.861, 0.785, 0.881, 0.867, 0.829, 0.781, 0.778, 0.828, 0.749, 0.648, 0.81, 0.699, 0.71, 0.776, 0.77, 0.68, 0.787, 0.842]",2,4
+utt_01932,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.784,"[0.876, 0.806, 0.839, 0.785, 0.67, 0.72, 0.877, 0.832, 0.624, 0.814]",2,2
+utt_01943,Describe what you did last weekend.,el fin de semana pasado fui al parque y luego cene con unos amigos o sea,es,B1,0.88,"[0.946, 0.826, 0.876, 0.883, 0.887, 0.85, 0.94, 0.756, 0.841, 0.891, 0.892, 0.944, 0.935, 0.849, 0.941, 0.824]",3,2
+utt_01950,Ask for directions to the train station.,"pardon, pourriez-vous me dire comment aller a la gare? franchement",fr,B2,0.608,"[0.602, 0.514, 0.613, 0.647, 0.6, 0.503, 0.565, 0.74, 0.738, 0.562]",3,4
+utt_01953,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.477,"[0.53, 0.472, 0.507, 0.374, 0.494, 0.46, 0.503]",0,1
+utt_01960,Talk about your favorite hobby and why you like it.,mon passe-temps est le foot le samedi,fr,A2,0.37,"[0.359, 0.45, 0.5, 0.313, 0.287, 0.375, 0.308]",2,1
+utt_01966,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.881,"[0.887, 0.868, 0.703, 0.745, 0.987, 0.872, 0.947, 0.889, 0.97, 0.941]",2,2
+utt_01968,Talk about a book or film you enjoyed recently.,book is good,en,A2,0.669,"[0.741, 0.713, 0.553]",2,1
+utt_01969,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,A2,0.635,"[0.694, 0.583, 0.601, 0.55, 0.74, 0.617, 0.589, 0.704, 0.55, 0.724]",3,2
+utt_01983,Give your opinion on working from home.,i think working from home is good but sometimes lonely,en,B2,0.802,"[0.776, 0.768, 0.859, 0.871, 0.815, 0.87, 0.732, 0.805, 0.707, 0.819]",3,3
+utt_01992,Explain how to get from your house to the office.,prendo autobus ufficio,it,A2,0.315,"[0.34, 0.341, 0.265]",4,1
