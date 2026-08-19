@@ -30,6 +30,7 @@ Each notebook has its own "how to run" line at the top and reuses `feature_engin
 | `Part_01_EDA.ipynb`, `Part_2_Classical_ML.ipynb`, `Part_3_Transformer.ipynb` | The three deliverables |
 | `Part_3b_Architecture_Comparison.ipynb` | Supplementary — full text-serialization vs. hybrid input, tested head-to-head |
 | `REPORT.md` | The short written report — read this first |
+| `AI_COLLABORATION_LOG.md` | Which tools were used, what was directed vs. AI-proposed, and things the AI got wrong |
 | `DEPLOYMENT.md` | Deployment strategy for Part 2 and Part 3 — artifacts, latency, cloud/edge/mobile, rollout |
 | `requirements.txt`, `setup_check.py` | Environment setup and verification |
 | `part2_predictions.csv`, `part3_predictions.csv` | Row-level predictions (id, input, true score, prediction) for external review |
